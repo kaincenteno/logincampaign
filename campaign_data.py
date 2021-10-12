@@ -189,7 +189,7 @@ data = {
 
 
 def create_file(year, month, file):
-    f = open(file + "/scripts/globals/events/login_campaign.lua", "w")
+    f = open(file + "/scripts/globals/events/login_campaign_data.lua", "w")
 
     f.write("local prizes =\n")
     f.write("{\n")
