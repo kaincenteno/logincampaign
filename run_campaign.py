@@ -6,4 +6,4 @@ GAME_FOLDER = ""
 CAMPAIGN_MONTH = ""
 CAMPAIGN_YEAR = ""
 
-campaign_data.create_file(GAME_FOLDER, CAMPAIGN_MONTH, GAME_FOLDER)
+campaign_data.create_file(CAMPAIGN_YEAR, CAMPAIGN_MONTH, GAME_FOLDER)

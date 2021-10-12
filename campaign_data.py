@@ -198,7 +198,7 @@ def create_file(year, month, file):
         f.write("    [{0}] =\n".format(option_id))
         f.write("    {\n")
         for price in data[year][month][option_id]:
-            f.write("        price = {0}\n".format(price))
+            f.write("        price = {0},\n".format(price))
             f.write("        items =\n")
             f.write("        {\n")
             for i in data[year][month][option_id][price]:
