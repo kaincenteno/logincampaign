@@ -1,9 +1,16 @@
 #!/bin/python3
+import settings
 import campaign_data
 
-# Enter below the root folder of your game server and the month and year of the campaign to import.
-GAME_FOLDER = ""
-CAMPAIGN_MONTH = ""
-CAMPAIGN_YEAR = ""
 
-campaign_data.create_file(CAMPAIGN_YEAR, CAMPAIGN_MONTH, GAME_FOLDER)
+campaign_data.create_file(
+    settings.CAMPAIGN_YEAR,
+    settings.CAMPAIGN_MONTH,
+    settings.GAME_FOLDER)
+campaign_data.enable_login_campaign(settings.GAME_FOLDER)
+campaign_data.change_campaign_date(
+    settings.CAMPAIGN_YEAR,
+    settings.CAMPAIGN_MONTH,
+    settings.CAMPAIGN_DAY,
+    settings.CAMPAIGN_DURATION,
+    settings.GAME_FOLDER)

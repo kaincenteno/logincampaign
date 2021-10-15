@@ -1,4 +1,5 @@
-#!/bin/python3
+import fileinput
+
 
 data = {
     2021: {
@@ -207,3 +208,23 @@ def create_file(year, month, file):
         f.write("    },\n")
 
     f.write("}\n")
+    f.write("return prizes")
+
+
+def enable_login_campaign(file):
+    for line in fileinput.input(file + "/scripts/settings/main.lua", True):
+        print(line.replace("ENABLE_LOGIN_CAMPAIGN = 0,", "ENABLE_LOGIN_CAMPAIGN = 1,").rstrip())
+
+
+def change_campaign_date(year, month, day, duration, file):
+    for line in fileinput.input(file + "/scripts/globals/events/login_campaign.lua", True):
+        if line.find("loginCampaignYear") != -1:
+            print(line.replace("loginCampaignYear = 2021", "loginCampaignYear = " + str(year)).rstrip())
+        elif line.find("loginCampaignMonth") != -1:
+            print(line.replace("loginCampaignMonth = 8", "loginCampaignMonth = " + str(month)).rstrip())
+        elif line.find("loginCampaignDay") != -1:
+            print(line.replace("loginCampaignDay = 25", "loginCampaignDay = " + str(day)).rstrip())
+        elif line.find("loginCampaignDuration") != -1:
+            print(line.replace("loginCampaignDuration = 23", "loginCampaignDuration = " + str(duration)).rstrip())
+        else:
+            print(line.rstrip())
