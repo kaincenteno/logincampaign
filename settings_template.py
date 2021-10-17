@@ -1,4 +1,8 @@
-# Enter below the root folder of your game server and the month and year of the campaign to import.
+# Make a copy of this file and rename it to settings.py
+# Afterwards make the changes below
+# NOTE: enter full path of your game server for example /etc/server or /home/myusername/server
+
+
 GAME_FOLDER = ""
 CAMPAIGN_YEAR = 2021
 CAMPAIGN_MONTH = 10
