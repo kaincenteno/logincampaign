@@ -184,8 +184,115 @@ data = {
                     2: 3344,  # Red Pondweed
                 }
             }
+        },
+        11: {
+            1: {
+                10: {
+                    0: 1126,  # Beastmen's Seal
+                    1: 1127,  # Kindred's Seal
+                    2: 2955,  # Kindred's Crest
+                    3: 2956,  # High Kindred's Crest
+                    4: 2957,  # Sacred Kindred's Crest
+                    5: 1857,  # Cordial Invite
+                    6: 2306,  # Martial Ball Invite
+                    7: 5364,  # Training Grounds Key
+                    8: 2487,  # Mercenary Camp Entry Slip
+                    9: 5741,  # Flask Of Pest Repellent
+                    10: 3557,  # Athena Orb
+                    11: 5113,  # Cracked Nut
+                    12: 3541,  # Seasoning Stone
+                    13: 3543,  # Fossilized Fang
+                    14: 3542,  # Fossilized Bone
+                    15: 5724,  # Pungent Powder
+                    16: 6535,  # Pungent Powder II
+                    17: 9890,  # Tarazacum Orb
+                },
+            },
+            5: {
+                100: {
+                    0: 8734,  # Mog Kupon I - S1
+                    1: 8966,  # Eudaemon Blade
+                    2: 8967,  # Eudaemon Cape
+                    3: 8968,  # Eudaemon Ring
+                    4: 8969,  # Eudaemon Sash
+                    5: 8970,  # Eudaemon Shield
+                    6: 17006,  # Drill Calamary
+                    7: 17007,  # Dwarf Pugil
+                    8: 6413,  # Astral Cube
+                    9: 9891,  # Zinnia Orb
+                    10: 20713,  # Excalipoor
+                    11: 6008,  # Copse Candy
+                    12: 10850,  # Leech Belt
+                    13: 10851,  # Slime Belt
+                },
+            },
+            9: {
+                300: {
+                    0: 10069,  # ♪Goobbue
+                    1: 10051,  # ♪Crab
+                    2: 10058,  # ♪Beetle
+                    3: 10384,  # Cumulus Masque
+                    4: 20666,  # Blizzard Brand
+                    5: 25658,  # Wyrm. Masque +1
+                    6: 25757,  # Wyrmking Suit +1
+                    7: 10073,  # ♪Dhalmel
+                    8: 10076,  # ♪Golden Bomb
+                },
+            },
+            13: {
+                500: {
+                    0: 10079,  # ♪Iron Giant
+                },
+            },
+            17: {
+                750: {
+                    0: 9079,  # Kitchen Brick
+                    1: 9080,  # Kitchen Stove
+                    2: 9081,  # Kitchen Plate
+                    3: 3339,  # Honey Wine
+                    4: 3341,  # Beastly Shank
+                    5: 3343,  # Blue Pondweed
+                    6: 1873,  # Brigand's Chart
+                    7: 1874,  # Pirate's Chart
+                },
+            },
+            21: {
+                1000: {
+                    0: 6499,  # Mog Patio Plans
+                    1: 26164,  # Caliber Ring
+                    2: 26165,  # Facility Ring
+                    3: 6486,  # Frayed Sack (Pel)
+                    4: 6487,  # Frayed Sack (Fer)
+                    5: 6488,  # Frayed Sack (Tau)
+                    6: 6542,  # Worn Sack (SS+2)
+                    7: 6544,  # Worn Sack (LS+2)
+                    8: 6546,  # Worn Sack (DS+2)
+                    9: 6548,  # Worn Sack (ST+2)
+                    10: 6550,  # Worn Sack (LT+2)
+                    11: 6552,  # Worn Sack (DT+2)
+                    12: 6554,  # Worn Sack (SD+2)
+                    13: 6556,  # Worn Sack (LD+2)
+                    14: 6558,  # Worn Sack (DD+2)
+                    15: 6560,  # Worn Sack (SO+2)
+                    16: 6562,  # Worn Sack (LO+2)
+                    17: 6564,  # Worn Sack (DO+2)
+                },
+            },
+            25: {
+                1500: {
+                    0: 3340,  # Sweet Tea
+                    1: 3342,  # Savory Shank
+                    2: 3344,  # Red Pondweed
+                    3: 8720,  # Maliya. Coral Orb
+                    4: 8722,  # Hepatizon Ingot
+                    5: 8724,  # Beryllium Ingot
+                    6: 8726,  # Exalted Lumber
+                    7: 8728,  # Sif's Macrame
+                    8: 28653,  # Mundus Shield
+                }
+            }
         }
-    },
+    }
 }
 
 
