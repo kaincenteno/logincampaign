@@ -291,6 +291,125 @@ data = {
                     8: 28653,  # Mundus Shield
                 }
             }
+        },
+        12: {
+            1: {
+                10: {
+                    0: 1126,  # Beastmen's Seal
+                    1: 1127,  # Kindred's Seal
+                    2: 2955,  # Kindred's Crest
+                    3: 2956,  # High Kindred's Crest
+                    4: 2957,  # Sacred Kindred's Crest
+                    5: 1857,  # Cordial Invite
+                    6: 2306,  # Martial Ball Invite
+                    7: 5364,  # Training Grounds Key
+                    8: 2487,  # Mercenary Camp Entry Slip
+                    9: 5741,  # Flask Of Pest Repellent
+                    10: 3557,  # Athena Orb
+                    11: 5113,  # Cracked Nut
+                    12: 3541,  # Seasoning Stone
+                    13: 3543,  # Fossilized Fang
+                    14: 3542,  # Fossilized Bone
+                    15: 5724,  # Pungent Powder
+                    16: 6535,  # Pungent Powder II
+                    17: 26489,  # Troth
+                    18: 28661,  # Glinting Shield
+                },
+            },
+            5: {
+                100: {
+                    0: 8734,  # Mog Kupon I - S1
+                    1: 8966,  # Eudaemon Blade
+                    2: 8967,  # Eudaemon Cape
+                    3: 8968,  # Eudaemon Ring
+                    4: 8969,  # Eudaemon Sash
+                    5: 8970,  # Eudaemon Shield
+                    6: 17006,  # Drill Calamary
+                    7: 17007,  # Dwarf Pugil
+                    8: 10112,  # Cipher: Zeid
+                    9: 10113,  # Cipher: Lion
+                    10: 10118,  # Cipher: Naja
+                    11: 10120,  # Cipher: Lehko
+                    12: 10124,  # Cipher: Luzaf
+                    13: 10125,  # Cipher: Najelith
+                    14: 10129,  # Cipher: Domina
+                    15: 10134,  # Cipher: S. Sibyl
+                    16: 10142,  # Cipher: Karaha
+                    17: 10149,  # Cipher: Areuhat
+                    18: 10136,  # Cipher: Uka
+                    19: 10141,  # Cipher: Kuyin
+                },
+            },
+            9: {
+                100: {
+                    0: 10144,  # Cipher: Abenzio
+                    1: 10145,  # Cipher: Rughadjeen
+                    2: 10150,  # Cipher: Lhe
+                    3: 10151,  # Cipher: Mayakov
+                    4: 10155,  # Cipher: Brygid
+                    5: 10156,  # Cipher: Mildaurion
+                    6: 10161,  # Cipher: Rongelouts
+                    7: 10166,  # Cipher: Robel-Akbel
+                    8: 10178,  # Cipher: Ullegore
+                    9: 10179,  # Cipher: Teodor
+                    10: 10183,  # Cipher: Darrcuiln
+                },
+            },
+            13: {
+                300: {
+                    0: 5854,  # Frayed Pouch (B)
+                    1: 5855,  # Frayed Pouch (A)
+                    2: 5856,  # Frayed Pouch (G)
+                    3: 5857,  # Frayed Pouch (D)
+                    4: 5858,  # Frayed Pouch (R)
+                    5: 5946,  # Frayed Sack (D)
+                    6: 5947,  # Frayed Sack (L)
+                    7: 4064,  # Rem's Tale Ch.1
+                    8: 4065,  # Rem's Tale Ch.2
+                    9: 4066,  # Rem's Tale Ch.3
+                    10: 4067,  # Rem's Tale Ch.4
+                    11: 4068,  # Rem's Tale Ch.5
+                    12: 10187,  # Cipher: Shantotto II
+                },
+            },
+            17: {
+                500: {
+                    0: 23800,  # Cancrine Apron
+                    1: 3749,  # Chemistry Set
+                    2: 10079,  # ♪Iron Giant
+                },
+            },
+            21: {
+                750: {
+                    0: 3885,  # Melodious Plans
+                    1: 3886,  # Timbre Case Kit
+                    2: 3887,  # Musichinery Kit
+                    3: 3339,  # Honey Wine
+                    4: 3341,  # Beastly Shank
+                    5: 3343,  # Blue Pondweed
+                    6: 1873,  # Brigand's Chart
+                    7: 1874,  # Pirate's Chart
+                    8: 4069,  # Copy Of Rem's Tale, Chapter 6
+                    9: 4070,  # Copy Of Rem's Tale, Chapter 7
+                    10: 4071,  # Copy Of Rem's Tale, Chapter 8
+                    11: 4072,  # Copy Of Rem's Tale, Chapter 9
+                    12: 4073,  # Copy Of Rem's Tale, Chapter 10
+                },
+            },
+            25: {
+                1000: {
+                    0: 6499,  # Patio Design Plans
+                    1: 26164,  # Caliber Ring
+                    2: 26165,  # Facility Ring
+                }
+            },
+            29: {
+                1500: {
+                    0: 3340,  # Sweet Tea
+                    1: 3342,  # Savory Shank
+                    2: 3344,  # Red Pondweed
+                }
+            }
         }
     }
 }
