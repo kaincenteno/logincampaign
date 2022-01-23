@@ -552,12 +552,12 @@ def enable_login_campaign(file):
 def change_campaign_date(year, month, day, duration, file):
     for line in fileinput.input(file + "/scripts/globals/events/login_campaign.lua", True):
         if line.find("loginCampaignYear") != -1:
-            print(line.replace("loginCampaignYear = 2021", "loginCampaignYear = " + str(year)).rstrip())
+            print(line.replace("loginCampaignYear", "loginCampaignYear = " + str(year)).rstrip())
         elif line.find("loginCampaignMonth") != -1:
-            print(line.replace("loginCampaignMonth = 8", "loginCampaignMonth = " + str(month)).rstrip())
+            print(line.replace("loginCampaignMonth", "loginCampaignMonth = " + str(month)).rstrip())
         elif line.find("loginCampaignDay") != -1:
-            print(line.replace("loginCampaignDay = 25", "loginCampaignDay = " + str(day)).rstrip())
+            print(line.replace("loginCampaignDay", "loginCampaignDay = " + str(day)).rstrip())
         elif line.find("loginCampaignDuration") != -1:
-            print(line.replace("loginCampaignDuration = 23", "loginCampaignDuration = " + str(duration)).rstrip())
+            print(line.replace("loginCampaignDuration", "loginCampaignDuration = " + str(duration)).rstrip())
         else:
             print(line.rstrip())
