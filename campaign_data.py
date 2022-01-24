@@ -1,45 +1,50 @@
 import fileinput
 
+monthly_10_items = [
+    1126,  # Beastmen's Seal
+    1127,  # Kindred's Seal
+    2955,  # Kindred's Crest
+    2956,  # High Kindred's Crest
+    2957,  # Sacred Kindred's Crest
+    1857,  # Cordial Invite
+    2306,  # Martial Ball Invite
+    5364,  # Training Grounds Key
+    2487,  # Mercenary Camp Entry Slip
+    5741,  # Flask Of Pest Repellent
+    3557,  # Athena Orb
+    5113,  # Cracked Nut
+    3541,  # Seasoning Stone
+    3543,  # Fossilized Fang
+    3542,  # Fossilized Bone
+    5724,  # Pungent Powder
+    6535,  # Pungent Powder II
+]
+
+monthly_100_items = [
+    8734,  # Mog Kupon I - S1
+    8966,  # Eudaemon Blade
+    8967,  # Eudaemon Cape
+    8968,  # Eudaemon Ring
+    8969,  # Eudaemon Sash
+    8970,  # Eudaemon Shield
+    17006,  # Drill Calamary
+    17007,  # Dwarf Pugil
+]
 
 data = {
     2021: {
         9: {
             1: {
-                10: {
-                    0: 1126,  # Beastmen's Seal
-                    1: 1127,  # Kindred's Seal
-                    2: 2955,  # Kindred's Crest
-                    3: 2956,  # High Kindred's Crest
-                    4: 2957,  # Sacred Kindred's Crest
-                    5: 1857,  # Cordial Invite
-                    6: 2306,  # Martial Ball Invite
-                    7: 5364,  # Training Grounds Key
-                    8: 2487,  # Mercenary Camp Entry Slip
-                    9: 5741,  # Flask Of Pest Repellent
-                    10: 3557,  # Athena Orb
-                    11: 5113,  # Cracked Nut
-                    12: 3541,  # Seasoning Stone
-                    13: 3543,  # Fossilized Fang
-                    14: 3542,  # Fossilized Bone
-                    15: 5724,  # Pungent Powder
-                    16: 6535,  # Pungent Powder II
-                },
+                10: monthly_10_items,
             },
             5: {
-                100: {
-                    0: 8734,  # Mog Kupon I - S1
-                    1: 8966,  # Eudaemon Blade
-                    2: 8967,  # Eudaemon Cape
-                    3: 8968,  # Eudaemon Ring
-                    4: 8969,  # Eudaemon Sash
-                    5: 8970,  # Eudaemon Shield
-                    6: 17006,  # Drill Calamary
-                    7: 17007,  # Dwarf Pugil
-                    8: 6413,  # Astral Cube
-                    9: 3705,  # Far East Hearth
-                    10: 4567,  # Moon Carrot
-                    11: 4568,  # Moon Ball
-                },
+                100:
+                    monthly_100_items + [
+                        6413,  # Astral Cube
+                        3705,  # Far East Hearth
+                        4567,  # Moon Carrot
+                        4568,  # Moon Ball
+                    ]
             },
             9: {
                 300: {
@@ -101,41 +106,16 @@ data = {
         },
         10: {
             1: {
-                10: {
-                    0: 1126,  # Beastmen's Seal
-                    1: 1127,  # Kindred's Seal
-                    2: 2955,  # Kindred's Crest
-                    3: 2956,  # High Kindred's Crest
-                    4: 2957,  # Sacred Kindred's Crest
-                    5: 1857,  # Cordial Invite
-                    6: 2306,  # Martial Ball Invite
-                    7: 5364,  # Training Grounds Key
-                    8: 2487,  # Mercenary Camp Entry Slip
-                    9: 5741,  # Flask Of Pest Repellent
-                    10: 3557,  # Athena Orb
-                    11: 5113,  # Cracked Nut
-                    12: 3541,  # Seasoning Stone
-                    13: 3543,  # Fossilized Fang
-                    14: 3542,  # Fossilized Bone
-                    15: 5724,  # Pungent Powder
-                    16: 6535,  # Pungent Powder II
-                },
+                10: monthly_10_items
             },
             5: {
-                100: {
-                    0: 8734,  # Mog Kupon I - S1
-                    1: 8966,  # Eudaemon Blade
-                    2: 8967,  # Eudaemon Cape
-                    3: 8968,  # Eudaemon Ring
-                    4: 8969,  # Eudaemon Sash
-                    5: 8970,  # Eudaemon Shield
-                    6: 17006,  # Drill Calamary
-                    7: 17007,  # Dwarf Pugil
-                    8: 26946,  # Pupil's Shirt
-                    9: 26964,  # Pupil's Camisa
-                    10: 27281,  # Pupil's Trousers
-                    11: 27455,  # Pupil's Shoes
-                },
+                100:
+                    monthly_100_items + [
+                        26946,  # Pupil's Shirt
+                        26964,  # Pupil's Camisa
+                        27281,  # Pupil's Trousers
+                        27455,  # Pupil's Shoes
+                    ]
             },
             9: {
                 300: {
@@ -187,44 +167,18 @@ data = {
         },
         11: {
             1: {
-                10: {
-                    0: 1126,  # Beastmen's Seal
-                    1: 1127,  # Kindred's Seal
-                    2: 2955,  # Kindred's Crest
-                    3: 2956,  # High Kindred's Crest
-                    4: 2957,  # Sacred Kindred's Crest
-                    5: 1857,  # Cordial Invite
-                    6: 2306,  # Martial Ball Invite
-                    7: 5364,  # Training Grounds Key
-                    8: 2487,  # Mercenary Camp Entry Slip
-                    9: 5741,  # Flask Of Pest Repellent
-                    10: 3557,  # Athena Orb
-                    11: 5113,  # Cracked Nut
-                    12: 3541,  # Seasoning Stone
-                    13: 3543,  # Fossilized Fang
-                    14: 3542,  # Fossilized Bone
-                    15: 5724,  # Pungent Powder
-                    16: 6535,  # Pungent Powder II
-                    17: 9890,  # Tarazacum Orb
-                },
+                10: monthly_10_items,
             },
             5: {
-                100: {
-                    0: 8734,  # Mog Kupon I - S1
-                    1: 8966,  # Eudaemon Blade
-                    2: 8967,  # Eudaemon Cape
-                    3: 8968,  # Eudaemon Ring
-                    4: 8969,  # Eudaemon Sash
-                    5: 8970,  # Eudaemon Shield
-                    6: 17006,  # Drill Calamary
-                    7: 17007,  # Dwarf Pugil
-                    8: 6413,  # Astral Cube
-                    9: 9891,  # Zinnia Orb
-                    10: 20713,  # Excalipoor
-                    11: 6008,  # Copse Candy
-                    12: 10850,  # Leech Belt
-                    13: 10851,  # Slime Belt
-                },
+                100:
+                    monthly_100_items + [
+                        6413,  # Astral Cube
+                        9891,  # Zinnia Orb
+                        20713,  # Excalipoor
+                        6008,  # Copse Candy
+                        10850,  # Leech Belt
+                        10851,  # Slime Belt
+                    ]
             },
             9: {
                 300: {
@@ -294,51 +248,24 @@ data = {
         },
         12: {
             1: {
-                10: {
-                    0: 1126,  # Beastmen's Seal
-                    1: 1127,  # Kindred's Seal
-                    2: 2955,  # Kindred's Crest
-                    3: 2956,  # High Kindred's Crest
-                    4: 2957,  # Sacred Kindred's Crest
-                    5: 1857,  # Cordial Invite
-                    6: 2306,  # Martial Ball Invite
-                    7: 5364,  # Training Grounds Key
-                    8: 2487,  # Mercenary Camp Entry Slip
-                    9: 5741,  # Flask Of Pest Repellent
-                    10: 3557,  # Athena Orb
-                    11: 5113,  # Cracked Nut
-                    12: 3541,  # Seasoning Stone
-                    13: 3543,  # Fossilized Fang
-                    14: 3542,  # Fossilized Bone
-                    15: 5724,  # Pungent Powder
-                    16: 6535,  # Pungent Powder II
-                    17: 26489,  # Troth
-                    18: 28661,  # Glinting Shield
-                },
+                10: monthly_10_items,
             },
             5: {
-                100: {
-                    0: 8734,  # Mog Kupon I - S1
-                    1: 8966,  # Eudaemon Blade
-                    2: 8967,  # Eudaemon Cape
-                    3: 8968,  # Eudaemon Ring
-                    4: 8969,  # Eudaemon Sash
-                    5: 8970,  # Eudaemon Shield
-                    6: 17006,  # Drill Calamary
-                    7: 17007,  # Dwarf Pugil
-                    8: 10112,  # Cipher: Zeid
-                    9: 10113,  # Cipher: Lion
-                    10: 10118,  # Cipher: Naja
-                    11: 10120,  # Cipher: Lehko
-                    12: 10124,  # Cipher: Luzaf
-                    13: 10125,  # Cipher: Najelith
-                    14: 10129,  # Cipher: Domina
-                    15: 10134,  # Cipher: S. Sibyl
-                    16: 10142,  # Cipher: Karaha
-                    17: 10149,  # Cipher: Areuhat
-                    18: 10136,  # Cipher: Uka
-                    19: 10141,  # Cipher: Kuyin
-                },
+                100:
+                    monthly_100_items + [
+                        10112,  # Cipher: Zeid
+                        10113,  # Cipher: Lion
+                        10118,  # Cipher: Naja
+                        10120,  # Cipher: Lehko
+                        10124,  # Cipher: Luzaf
+                        10125,  # Cipher: Najelith
+                        10129,  # Cipher: Domina
+                        10134,  # Cipher: S. Sibyl
+                        10142,  # Cipher: Karaha
+                        10149,  # Cipher: Areuhat
+                        10136,  # Cipher: Uka
+                        10141,  # Cipher: Kuyin
+                    ]
             },
             9: {
                 100: {
@@ -415,41 +342,16 @@ data = {
     2022: {
         1: {
             1: {
-                10: {
-                    0: 1126,  # Beastmen's Seal
-                    1: 1127,  # Kindred's Seal
-                    2: 2955,  # Kindred's Crest
-                    3: 2956,  # High Kindred's Crest
-                    4: 2957,  # Sacred Kindred's Crest
-                    5: 1857,  # Cordial Invite
-                    6: 2306,  # Martial Ball Invite
-                    7: 5364,  # Training Grounds Key
-                    8: 2487,  # Mercenary Camp Entry Slip
-                    9: 5741,  # Flask Of Pest Repellent
-                    10: 3557,  # Athena Orb
-                    11: 5113,  # Cracked Nut
-                    12: 3541,  # Seasoning Stone
-                    13: 3543,  # Fossilized Fang
-                    14: 3542,  # Fossilized Bone
-                    15: 5724,  # Pungent Powder
-                    16: 6535,  # Pungent Powder II
-                },
+                10: monthly_10_items
             },
             5: {
-                100: {
-                    0: 8734,  # Mog Kupon I - S1
-                    1: 8966,  # Eudaemon Blade
-                    2: 8967,  # Eudaemon Cape
-                    3: 8968,  # Eudaemon Ring
-                    4: 8969,  # Eudaemon Sash
-                    5: 8970,  # Eudaemon Shield
-                    6: 17006,  # Drill Calamary
-                    7: 17007,  # Dwarf Pugil
-                    8: 6413,  # Astral Cube
-                    9: 3705,  # Far East Hearth
-                    10: 25758,  # Rhapsody Shirt
-                    11: 27631,  # Cait Sith Guard
-                },
+                100:
+                    monthly_100_items + [
+                        6413,  # Astral Cube
+                        3705,  # Far East Hearth
+                        25758,  # Rhapsody Shirt
+                        27631,  # Cait Sith Guard
+                    ]
             },
             9: {
                 300: {
@@ -552,12 +454,12 @@ def enable_login_campaign(file):
 def change_campaign_date(year, month, day, duration, file):
     for line in fileinput.input(file + "/scripts/globals/events/login_campaign.lua", True):
         if line.find("loginCampaignYear") != -1:
-            print(line.replace("loginCampaignYear", "loginCampaignYear = " + str(year)).rstrip())
+            print(line.replace("loginCampaignYear = ", "loginCampaignYear = " + str(year)).rstrip())
         elif line.find("loginCampaignMonth") != -1:
-            print(line.replace("loginCampaignMonth", "loginCampaignMonth = " + str(month)).rstrip())
+            print(line.replace("loginCampaignMonth = ", "loginCampaignMonth = " + str(month)).rstrip())
         elif line.find("loginCampaignDay") != -1:
-            print(line.replace("loginCampaignDay", "loginCampaignDay = " + str(day)).rstrip())
+            print(line.replace("loginCampaignDay = ", "loginCampaignDay = " + str(day)).rstrip())
         elif line.find("loginCampaignDuration") != -1:
-            print(line.replace("loginCampaignDuration", "loginCampaignDuration = " + str(duration)).rstrip())
+            print(line.replace("loginCampaignDuration = ", "loginCampaignDuration = " + str(duration)).rstrip())
         else:
             print(line.rstrip())
