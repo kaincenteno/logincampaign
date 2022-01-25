@@ -31,6 +31,17 @@ monthly_100_items = [
     17007,  # Dwarf Pugil
 ]
 
+monthly_750_items = [
+    3339,  # Honey Wine
+    3341,  # Beastly Shank
+    3343,  # Blue Pondweed
+]
+monthly_1000_items = [
+    6499,  # Patio Design Plans
+    26164,  # Caliber Ring
+    26165,  # Facility Ring
+]
+
 data = {
     2021: {
         9: {
@@ -47,61 +58,55 @@ data = {
                     ]
             },
             9: {
-                300: {
-                    0: 10064,  # ♪Hyppogryph
-                    1: 10056,  # ♪Crawler
-                    2: 3721,  # Iroha Statue
-                    3: 25670,  # Rarab Cap
-                    4: 25675,  # White Rarab Cap
-                    5: 20578,  # Wind Knife
-                    6: 23753,  # Sandogasa
-                    7: 3721,  # Frayed Pouch (B)
-                    8: 5855,  # Frayed Pouch (A)
-                    9: 5856,  # Frayed Pouch (G)
-                    10: 5857,  # Frayed Pouch (D)
-                    11: 5858,  # Frayed Pouch (R)
-                    12: 5946,  # Frayed Sack (D)
-                    13: 5947,  # Frayed Sack (L)
-                    14: 4064,  # Rem's Tale Ch.1
-                    15: 4065,  # Rem's Tale Ch.2
-                    16: 4066,  # Rem's Tale Ch.3
-                    17: 4067,  # Rem's Tale Ch.4
-                    18: 4068,  # Rem's Tale Ch.5
-                },
+                300: [
+                    10064,  # ♪Hyppogryph
+                    10056,  # ♪Crawler
+                    3721,  # Iroha Statue
+                    25670,  # Rarab Cap
+                    25675,  # White Rarab Cap
+                    20578,  # Wind Knife
+                    23753,  # Sandogasa
+                    3721,  # Frayed Pouch (B)
+                    5855,  # Frayed Pouch (A)
+                    5856,  # Frayed Pouch (G)
+                    5857,  # Frayed Pouch (D)
+                    5858,  # Frayed Pouch (R)
+                    5946,  # Frayed Sack (D)
+                    5947,  # Frayed Sack (L)
+                    4064,  # Rem's Tale Ch.1
+                    4065,  # Rem's Tale Ch.2
+                    4066,  # Rem's Tale Ch.3
+                    4067,  # Rem's Tale Ch.4
+                    4068,  # Rem's Tale Ch.5
+                ],
             },
             13: {
-                500: {
-                    0: 23800,  # Cancrine Apron
-                },
+                500: 23800,  # Cancrine Apron
             },
             17: {
-                750: {
-                    0: 9079,  # Kitchen Brick
-                    1: 9080,  # Kitchen Stove
-                    2: 9081,  # Kitchen Plate
-                    3: 3339,  # Honey Wine
-                    4: 3341,  # Beastly Shank
-                    5: 3343,  # Blue Pondweed
-                },
+                750: [
+                    9079,  # Kitchen Brick
+                    9080,  # Kitchen Stove
+                    9081,  # Kitchen Plate
+                    ] +
+                    monthly_750_items
             },
             21: {
-                1000: {
-                    0: 6499,  # Patio Design Plans
-                    1: 26165,  # Facility Ring
-                    2: 26164,  # Caliber Ring
-                    3: 4069,  # Copy Of Rem's Tale, Chapter 6
-                    4: 4070,  # Copy Of Rem's Tale, Chapter 7
-                    5: 4071,  # Copy Of Rem's Tale, Chapter 8
-                    6: 4072,  # Copy Of Rem's Tale, Chapter 9
-                    7: 4073,  # Copy Of Rem's Tale, Chapter 10
-                },
+                1000:
+                    monthly_1000_items + [
+                        4069,  # Copy Of Rem's Tale, Chapter 6
+                        4070,  # Copy Of Rem's Tale, Chapter 7
+                        4071,  # Copy Of Rem's Tale, Chapter 8
+                        4072,  # Copy Of Rem's Tale, Chapter 9
+                        4073,  # Copy Of Rem's Tale, Chapter 10
+                    ]
             },
             25: {
-                1500: {
-                    0: 3340,  # Sweet Tea
-                    1: 3342,  # Savory Shank
-                    2: 3344,  # Red Pondweed
-                }
+                1500: [
+                    3340,  # Sweet Tea
+                    3342,  # Savory Shank
+                    3344,  # Red Pondweed
+                ]
             }
         },
         10: {
@@ -118,51 +123,46 @@ data = {
                     ]
             },
             9: {
-                300: {
-                    0: 3726,  # Aphmau Statue
-                    1: 10050,  # ♪Tiger companion
-                    2: 3651,  # Harvest Pastry
-                    3: 25713,  # Track Shirt
-                    4: 27325,  # Track Pants
-                    5: 25586,  # Kakai Cap
-                    6: 21820,  # Lost Sickle
-                    7: 3739,  # Autumn Tree
-                    8: 54,  # Chocobo Commode
-                },
+                300: [
+                    3726,  # Aphmau Statue
+                    10050,  # ♪Tiger companion
+                    3651,  # Harvest Pastry
+                    25713,  # Track Shirt
+                    27325,  # Track Pants
+                    25586,  # Kakai Cap
+                    21820,  # Lost Sickle
+                    3739,  # Autumn Tree
+                    54,  # Chocobo Commode
+                ]
             },
             13: {
-                500: {
-                    0: 3749,  # Chemistry Set
-                },
+                500: 3749,  # Chemistry Set
             },
             17: {
-                750: {
-                    0: 3885,  # Melodious Plans
-                    1: 3886,  # Timbre Case Kit
-                    2: 3887,  # Musichinery Kit
-                    3: 3339,  # Honey Wine
-                    4: 3341,  # Beastly Shank
-                    5: 3343,  # Blue Pondweed
-                    6: 6576,  # Turkey with Rolanberry Sauce
-                },
+                750: [
+                        3885,  # Melodious Plans
+                        3886,  # Timbre Case Kit
+                        3887,  # Musichinery Kit
+                    ] +
+                    monthly_750_items + [
+                        6576,  # Turkey with Rolanberry Sauce
+                    ]
             },
             21: {
-                1000: {
-                    0: 6499,  # Patio Design Plans
-                    1: 26164,  # Caliber Ring
-                    2: 26165,  # Facility Ring
-                    3: 3640,  # Rol. Delightaru
-                    4: 3714,  # White Clematis
-                    5: 3715,  # Pink Clematis
-                    6: 3717,  # Birch Tree
-                },
+                1000:
+                    monthly_1000_items + [
+                        3640,  # Rol. Delightaru
+                        3714,  # White Clematis
+                        3715,  # Pink Clematis
+                        3717,  # Birch Tree
+                    ]
             },
             25: {
-                1500: {
-                    0: 3340,  # Sweet Tea
-                    1: 3342,  # Savory Shank
-                    2: 3344,  # Red Pondweed
-                }
+                1500: [
+                    3340,  # Sweet Tea
+                    3342,  # Savory Shank
+                    3344,  # Red Pondweed
+                ]
             }
         },
         11: {
@@ -181,69 +181,63 @@ data = {
                     ]
             },
             9: {
-                300: {
-                    0: 10069,  # ♪Goobbue
-                    1: 10051,  # ♪Crab
-                    2: 10058,  # ♪Beetle
-                    3: 10384,  # Cumulus Masque
-                    4: 20666,  # Blizzard Brand
-                    5: 25658,  # Wyrm. Masque +1
-                    6: 25757,  # Wyrmking Suit +1
-                    7: 10073,  # ♪Dhalmel
-                    8: 10076,  # ♪Golden Bomb
-                },
+                300: [
+                    10069,  # ♪Goobbue
+                    10051,  # ♪Crab
+                    10058,  # ♪Beetle
+                    10384,  # Cumulus Masque
+                    20666,  # Blizzard Brand
+                    25658,  # Wyrm. Masque +1
+                    25757,  # Wyrmking Suit +1
+                    10073,  # ♪Dhalmel
+                    10076,  # ♪Golden Bomb
+                ]
             },
             13: {
-                500: {
-                    0: 10079,  # ♪Iron Giant
-                },
+                500: 10079,  # ♪Iron Giant
             },
             17: {
-                750: {
-                    0: 9079,  # Kitchen Brick
-                    1: 9080,  # Kitchen Stove
-                    2: 9081,  # Kitchen Plate
-                    3: 3339,  # Honey Wine
-                    4: 3341,  # Beastly Shank
-                    5: 3343,  # Blue Pondweed
-                    6: 1873,  # Brigand's Chart
-                    7: 1874,  # Pirate's Chart
-                },
+                750: [
+                        9079,  # Kitchen Brick
+                        9080,  # Kitchen Stove
+                        9081,  # Kitchen Plate
+                    ] + monthly_750_items + [
+                        1873,  # Brigand's Chart
+                        1874,  # Pirate's Chart
+                    ]
             },
             21: {
-                1000: {
-                    0: 6499,  # Mog Patio Plans
-                    1: 26164,  # Caliber Ring
-                    2: 26165,  # Facility Ring
-                    3: 6486,  # Frayed Sack (Pel)
-                    4: 6487,  # Frayed Sack (Fer)
-                    5: 6488,  # Frayed Sack (Tau)
-                    6: 6542,  # Worn Sack (SS+2)
-                    7: 6544,  # Worn Sack (LS+2)
-                    8: 6546,  # Worn Sack (DS+2)
-                    9: 6548,  # Worn Sack (ST+2)
-                    10: 6550,  # Worn Sack (LT+2)
-                    11: 6552,  # Worn Sack (DT+2)
-                    12: 6554,  # Worn Sack (SD+2)
-                    13: 6556,  # Worn Sack (LD+2)
-                    14: 6558,  # Worn Sack (DD+2)
-                    15: 6560,  # Worn Sack (SO+2)
-                    16: 6562,  # Worn Sack (LO+2)
-                    17: 6564,  # Worn Sack (DO+2)
-                },
+                1000:
+                    monthly_1000_items + [
+                        6486,  # Frayed Sack (Pel)
+                        6487,  # Frayed Sack (Fer)
+                        6488,  # Frayed Sack (Tau)
+                        6542,  # Worn Sack (SS+2)
+                        6544,  # Worn Sack (LS+2)
+                        6546,  # Worn Sack (DS+2)
+                        6548,  # Worn Sack (ST+2)
+                        6550,  # Worn Sack (LT+2)
+                        6552,  # Worn Sack (DT+2)
+                        6554,  # Worn Sack (SD+2)
+                        6556,  # Worn Sack (LD+2)
+                        6558,  # Worn Sack (DD+2)
+                        6560,  # Worn Sack (SO+2)
+                        6562,  # Worn Sack (LO+2)
+                        6564,  # Worn Sack (DO+2)
+                    ]
             },
             25: {
-                1500: {
-                    0: 3340,  # Sweet Tea
-                    1: 3342,  # Savory Shank
-                    2: 3344,  # Red Pondweed
-                    3: 8720,  # Maliya. Coral Orb
-                    4: 8722,  # Hepatizon Ingot
-                    5: 8724,  # Beryllium Ingot
-                    6: 8726,  # Exalted Lumber
-                    7: 8728,  # Sif's Macrame
-                    8: 28653,  # Mundus Shield
-                }
+                1500: [
+                    3340,  # Sweet Tea
+                    3342,  # Savory Shank
+                    3344,  # Red Pondweed
+                    8720,  # Maliya. Coral Orb
+                    8722,  # Hepatizon Ingot
+                    8724,  # Beryllium Ingot
+                    8726,  # Exalted Lumber
+                    8728,  # Sif's Macrame
+                    28653,  # Mundus Shield
+                ]
             }
         },
         12: {
@@ -268,74 +262,68 @@ data = {
                     ]
             },
             9: {
-                100: {
-                    0: 10144,  # Cipher: Abenzio
-                    1: 10145,  # Cipher: Rughadjeen
-                    2: 10150,  # Cipher: Lhe
-                    3: 10151,  # Cipher: Mayakov
-                    4: 10155,  # Cipher: Brygid
-                    5: 10156,  # Cipher: Mildaurion
-                    6: 10161,  # Cipher: Rongelouts
-                    7: 10166,  # Cipher: Robel-Akbel
-                    8: 10178,  # Cipher: Ullegore
-                    9: 10179,  # Cipher: Teodor
-                    10: 10183,  # Cipher: Darrcuiln
-                },
+                100: [
+                    10144,  # Cipher: Abenzio
+                    10145,  # Cipher: Rughadjeen
+                    10150,  # Cipher: Lhe
+                    10151,  # Cipher: Mayakov
+                    10155,  # Cipher: Brygid
+                    10156,  # Cipher: Mildaurion
+                    10161,  # Cipher: Rongelouts
+                    10166,  # Cipher: Robel-Akbel
+                    10178,  # Cipher: Ullegore
+                    10179,  # Cipher: Teodor
+                    10183,  # Cipher: Darrcuiln
+                ]
             },
             13: {
-                300: {
-                    0: 5854,  # Frayed Pouch (B)
-                    1: 5855,  # Frayed Pouch (A)
-                    2: 5856,  # Frayed Pouch (G)
-                    3: 5857,  # Frayed Pouch (D)
-                    4: 5858,  # Frayed Pouch (R)
-                    5: 5946,  # Frayed Sack (D)
-                    6: 5947,  # Frayed Sack (L)
-                    7: 4064,  # Rem's Tale Ch.1
-                    8: 4065,  # Rem's Tale Ch.2
-                    9: 4066,  # Rem's Tale Ch.3
-                    10: 4067,  # Rem's Tale Ch.4
-                    11: 4068,  # Rem's Tale Ch.5
-                    12: 10187,  # Cipher: Shantotto II
-                },
+                300: [
+                    5854,  # Frayed Pouch (B)
+                    5855,  # Frayed Pouch (A)
+                    5856,  # Frayed Pouch (G)
+                    5857,  # Frayed Pouch (D)
+                    5858,  # Frayed Pouch (R)
+                    5946,  # Frayed Sack (D)
+                    5947,  # Frayed Sack (L)
+                    4064,  # Rem's Tale Ch.1
+                    4065,  # Rem's Tale Ch.2
+                    4066,  # Rem's Tale Ch.3
+                    4067,  # Rem's Tale Ch.4
+                    4068,  # Rem's Tale Ch.5
+                    10187,  # Cipher: Shantotto II
+                ]
             },
             17: {
-                500: {
-                    0: 23800,  # Cancrine Apron
-                    1: 3749,  # Chemistry Set
-                    2: 10079,  # ♪Iron Giant
-                },
+                500: [
+                    23800,  # Cancrine Apron
+                    3749,  # Chemistry Set
+                    10079,  # ♪Iron Giant
+                ]
             },
             21: {
-                750: {
-                    0: 3885,  # Melodious Plans
-                    1: 3886,  # Timbre Case Kit
-                    2: 3887,  # Musichinery Kit
-                    3: 3339,  # Honey Wine
-                    4: 3341,  # Beastly Shank
-                    5: 3343,  # Blue Pondweed
-                    6: 1873,  # Brigand's Chart
-                    7: 1874,  # Pirate's Chart
-                    8: 4069,  # Copy Of Rem's Tale, Chapter 6
-                    9: 4070,  # Copy Of Rem's Tale, Chapter 7
-                    10: 4071,  # Copy Of Rem's Tale, Chapter 8
-                    11: 4072,  # Copy Of Rem's Tale, Chapter 9
-                    12: 4073,  # Copy Of Rem's Tale, Chapter 10
-                },
+                750: [
+                        3885,  # Melodious Plans
+                        3886,  # Timbre Case Kit
+                        3887,  # Musichinery Kit
+                    ] + monthly_750_items + [
+                        1873,  # Brigand's Chart
+                        1874,  # Pirate's Chart
+                        4069,  # Copy Of Rem's Tale, Chapter 6
+                        4070,  # Copy Of Rem's Tale, Chapter 7
+                        4071,  # Copy Of Rem's Tale, Chapter 8
+                        4072,  # Copy Of Rem's Tale, Chapter 9
+                        4073,  # Copy Of Rem's Tale, Chapter 10
+                    ]
             },
             25: {
-                1000: {
-                    0: 6499,  # Patio Design Plans
-                    1: 26164,  # Caliber Ring
-                    2: 26165,  # Facility Ring
-                }
+                1000: monthly_1000_items
             },
             29: {
-                1500: {
-                    0: 3340,  # Sweet Tea
-                    1: 3342,  # Savory Shank
-                    2: 3344,  # Red Pondweed
-                }
+                1500: [
+                    3340,  # Sweet Tea
+                    3342,  # Savory Shank
+                    3344,  # Red Pondweed
+                ]
             }
         }
     },
@@ -354,70 +342,64 @@ data = {
                     ]
             },
             9: {
-                300: {
-                    0: 10061,  # ♪Tulfaire
-                    1: 10066,  # ♪Spheroid
-                    2: 10070,  # ♪Raaz
-                    3: 18464,  # Ark Tachi
-                    4: 18545,  # Ark Tabar
-                    5: 18563,  # Ark Scythe
-                    6: 18912,  # Ark Saber
-                    7: 18913,  # Ark Sword
-                    8: 3740,  # Model Synergy Furnace
-                    9: 23790,  # Adenium Masque
-                    10: 23791,  # Adenium Suit
-                },
+                300: [
+                    10061,  # ♪Tulfaire
+                    10066,  # ♪Spheroid
+                    10070,  # ♪Raaz
+                    18464,  # Ark Tachi
+                    18545,  # Ark Tabar
+                    18563,  # Ark Scythe
+                    18912,  # Ark Saber
+                    18913,  # Ark Sword
+                    3740,  # Model Synergy Furnace
+                    23790,  # Adenium Masque
+                    23791,  # Adenium Suit
+                ]
             },
             13: {
-                500: {
-                    0: 22045,  # Feline Hagoita
-                },
+                500: 22045,  # Feline Hagoita
             },
             17: {
-                750: {
-                    0: 9079,  # Kitchen Brick
-                    1: 9080,  # Kitchen Stove
-                    2: 9081,  # Kitchen Plate
-                    3: 3339,  # Honey Wine
-                    4: 3341,  # Beastly Shank
-                    5: 3343,  # Blue Pondweed
-                    6: 3713,  # Pot of Wards
-                },
+                750: [
+                        9079,  # Kitchen Brick
+                        9080,  # Kitchen Stove
+                        9081,  # Kitchen Plate
+                    ] + monthly_750_items + [
+                        3713,  # Pot of Wards
+                    ]
             },
             21: {
-                1000: {
-                    0: 6499,  # Patio Design Plans
-                    1: 26164,  # Caliber Ring
-                    2: 26165,  # Facility Ring
-                    3: 9057,  # Ayapec's Shell
-                    4: 9060,  # Ethereal Incense
-                    5: 9103,  # Vidmapire's Claw
-                    6: 9059,  # Azrael's Eye 
-                    7: 9104,  # Centurio's Armor
-                    8: 9097,  # Mhuufya's Beak
-                    9: 9051,  # Camahueto's Fur
-                    10: 9031,  # Vedrfolnir's Wing
-                },
+                1000:
+                    monthly_1000_items + [
+                        9057,  # Ayapec's Shell
+                        9060,  # Ethereal Incense
+                        9103,  # Vidmapire's Claw
+                        9059,  # Azrael's Eye 
+                        9104,  # Centurio's Armor
+                        9097,  # Mhuufya's Beak
+                        9051,  # Camahueto's Fur
+                        9031,  # Vedrfolnir's Wing
+                    ]
             },
             25: {
-                1500: {
-                    0: 3340,  # Sweet Tea
-                    1: 3342,  # Savory Shank
-                    2: 3344,  # Red Pondweed
-                    3: 3977,  # Gabbrath Horn
-                    4: 6068,  # Gabbrath Meat
-                    5: 3980,  # Bztavian Stinger
-                    6: 3981,  # Bztavian Wing
-                    7: 3978,  # Rockfin Fin
-                    8: 3979,  # Rockfin Tooth
-                    9: 4012,  # Waktza Rostrum
-                    10: 4013,  # Waktza Crest
-                    11: 4014,  # Yggdreant Bole
-                    12: 4015,  # Yggdreant Root
-                    13: 8752,  # Cehuetzi Claw
-                    14: 8753,  # Cehuetzi Ice Shard
-                    15: 8754,  # Cehuetzi Pelt
-                }
+                1500: [
+                    3340,  # Sweet Tea
+                    3342,  # Savory Shank
+                    3344,  # Red Pondweed
+                    3977,  # Gabbrath Horn
+                    6068,  # Gabbrath Meat
+                    3980,  # Bztavian Stinger
+                    3981,  # Bztavian Wing
+                    3978,  # Rockfin Fin
+                    3979,  # Rockfin Tooth
+                    4012,  # Waktza Rostrum
+                    4013,  # Waktza Crest
+                    4014,  # Yggdreant Bole
+                    4015,  # Yggdreant Root
+                    8752,  # Cehuetzi Claw
+                    8753,  # Cehuetzi Ice Shard
+                    8754,  # Cehuetzi Pelt
+                ]
             }
         }
     }
@@ -438,7 +420,7 @@ def create_file(year, month, file):
             f.write("        [\"items\"] =\n")
             f.write("        {\n")
             for i in data[year][month][option_id][price]:
-                f.write("            {0},\n".format(data[year][month][option_id][price][i]))
+                f.write("            {0},\n".format(i))
             f.write("        },\n")
         f.write("    },\n")
 
@@ -453,13 +435,13 @@ def enable_login_campaign(file):
 
 def change_campaign_date(year, month, day, duration, file):
     for line in fileinput.input(file + "/scripts/globals/events/login_campaign.lua", True):
-        if line.find("loginCampaignYear") != -1:
-            print(line.replace("loginCampaignYear = ", "loginCampaignYear = " + str(year)).rstrip())
-        elif line.find("loginCampaignMonth") != -1:
-            print(line.replace("loginCampaignMonth = ", "loginCampaignMonth = " + str(month)).rstrip())
-        elif line.find("loginCampaignDay") != -1:
-            print(line.replace("loginCampaignDay = ", "loginCampaignDay = " + str(day)).rstrip())
-        elif line.find("loginCampaignDuration") != -1:
-            print(line.replace("loginCampaignDuration = ", "loginCampaignDuration = " + str(duration)).rstrip())
+        if line.find("loginCampaignYear =") != -1:
+            print("loginCampaignYear = " + str(year))
+        elif line.find("loginCampaignMonth =") != -1:
+            print("loginCampaignMonth = " + str(month))
+        elif line.find("loginCampaignDay =") != -1:
+            print("loginCampaignDay = " + str(day))
+        elif line.find("loginCampaignDuration =") != -1:
+            print("loginCampaignDuration = " + str(duration))
         else:
-            print(line.rstrip())
+            print(line)
