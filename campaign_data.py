@@ -408,7 +408,7 @@ def create_file(year, month, file):
 def enable_login_campaign(file):
     for line in fileinput.FileInput(file + "/scripts/settings/main.lua", inplace = True):
         if line.find("ENABLE_LOGIN_CAMPAIGN = ") != -1:
-            print("ENABLE_LOGIN_CAMPAIGN = 1")
+            print("ENABLE_LOGIN_CAMPAIGN = 1,")
         else:
             print(line, end = '')
 
