@@ -1,5 +1,3 @@
-import fileinput
-
 monthly_10_items = [
     1126,  # Beastmen's Seal
     1127,  # Kindred's Seal
@@ -406,22 +404,26 @@ def create_file(year, month, file):
 
 
 def enable_login_campaign(file):
-    for line in fileinput.input(file + "/scripts/settings/main.lua", True):
-        if line.find("ENABLE_LOGIN_CAMPAIGN =") != -1:
-            print("ENABLE_LOGIN_CAMPAIGN = 1")
+    f = open(file + "/scripts/settings/main.lua", "w")
+    
+    for line in f:
+        if line.find("ENABLE_LOGIN_CAMPAIGN = ") != -1:
+            f.write("ENABLE_LOGIN_CAMPAIGN = 1")
         else:
-            print(line)
+            f.write(line)
 
 
 def change_campaign_date(year, month, day, duration, file):
-    for line in fileinput.input(file + "/scripts/globals/events/login_campaign.lua", True):
-        if line.find("loginCampaignYear =") != -1:
-            print("loginCampaignYear = " + str(year))
-        elif line.find("loginCampaignMonth =") != -1:
-            print("loginCampaignMonth = " + str(month))
-        elif line.find("loginCampaignDay =") != -1:
-            print("loginCampaignDay = " + str(day))
-        elif line.find("loginCampaignDuration =") != -1:
-            print("loginCampaignDuration = " + str(duration))
+    f = open(file + "/scripts/globals/events/login_campaign.lua", "w")
+    
+    for line in f:
+        if line.find("loginCampaignYear = ") != -1:
+            f.write("loginCampaignYear = " + str(year))
+        elif line.find("loginCampaignMonth = ") != -1:
+            f.write("loginCampaignMonth = " + str(month))
+        elif line.find("loginCampaignDay = ") != -1:
+            f.write("loginCampaignDay = " + str(day))
+        elif line.find("loginCampaignDuration = ") != -1:
+            f.write("loginCampaignDuration = " + str(duration))
         else:
-            print(line)
+            f.write(line)
