@@ -365,6 +365,61 @@ data = {
                 3490,  # Pil's Tuille
                 3447,  # Voidwrought Plate
                 ]
+        },
+        3: {
+            10:
+                monthly_10_items + [
+                26489,  # Troth
+                28661,  # Glinting Shield
+                ],
+            100:
+                monthly_100_items + [
+                6413,  # Astral Cube
+                3705,  # Far East Hearth
+                3698,  # Cherry Tree
+                18879,  # Rounsey Wand
+                6537,  # Pungent Powder III
+                ],
+            300: [
+                25670,  # Rarab Cap
+                26693,  # Morbol Cap
+                26719,  # Sheep Cap
+                10062,  # ♪Warmachine
+                26410,  # Diamond Buckler
+                3719,  # Prishe Statue II
+                3720,  # Arciela Statue
+                3721,  # Iroha Statue
+                3722,  # Lion Statue
+                3723,  # Lilisette Statue
+                3726,  # Aphmau Statue
+                21977,  # Mutsunokami
+                3744,  # Mandragora Pot
+                ],
+            500: [
+                10080,  # ♪Byakko
+                ],
+            750: [
+                9079,  # Kitchen Brick
+                9080,  # Kitchen Stove
+                9081,  # Kitchen Plate
+                ] + monthly_750_items,
+            1000:
+                monthly_1000_items + [
+                6542,  # Worn Sack (SS+2)
+                6544,  # Worn Sack (LS+2)
+                6546,  # Worn Sack (DS+2)
+                6548,  # Worn Sack (ST+2)
+                6550,  # Worn Sack (LT+2)
+                6552,  # Worn Sack (DT+2)
+                6554,  # Worn Sack (SD+2)
+                6556,  # Worn Sack (LD+2)
+                6558,  # Worn Sack (DD+2)
+                6560,  # Worn Sack (SO+2)
+                6562,  # Worn Sack (LO+2)
+                6564,  # Worn Sack (DO+2)
+                ],
+            1500:
+                monthly_1500_items,
         }
     }
 }
