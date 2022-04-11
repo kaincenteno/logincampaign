@@ -37,7 +37,7 @@ monthly_750_items = [
     3343,  # Blue Pondweed
 ]
 monthly_1000_items = [
-    6499,  # Patio Design Plans
+    6499,  # Mog Patio Plans
     26164,  # Caliber Ring
     26165,  # Facility Ring
 ]
@@ -285,8 +285,8 @@ data = {
                 23791,  # Adenium Suit
                 ],
             500: [
-                22045
-                ],  # Feline Hagoita
+                22045  # Feline Hagoita
+                ],
             750: [
                 9079,  # Kitchen Brick
                 9080,  # Kitchen Stove
@@ -420,7 +420,55 @@ data = {
                 ],
             1500:
                 monthly_1500_items,
-        }
+        },
+        4: {
+            10:
+                monthly_10_items + [
+                    26489  # Troth
+                ],
+            100:
+                monthly_100_items + [
+                27899,  # Alliance Shirt
+                28185,  # Alliance Pants
+                28324,  # Alliance Boots
+                ],
+            300: [
+                10050,  # ♪Tiger companion
+                10066,  # ♪Spheroid
+                10070,  # ♪Raaz
+                10074,  # ♪Doll
+                10078,  # ♪Wivre
+                22124,  # Artemis's Bow
+                25632,  # Carbie Cap
+                26717,  # Cait Sith Cap
+                25675,  # White Rarab Cap
+                26410,  # Diamond Buckler
+                3740,  # Model Synergy Furnace
+                21977,  # Mutsunokami
+                3744,  # Mandragora Pot
+                23790,  # Adenium Masque
+                23791,  # Adenium Suit
+                ],
+            500: [
+                22045,  # Feline Hagoita
+                3751,  # Besigiled Table
+                10080,  # ♪Byakko
+                ],
+            750: [
+                3885,  # Melodious Plans
+                3886,  # Timbre Case Kit
+                3887,  # Musichinery Kit
+                ] + monthly_750_items + [
+                5109,  # Frayed Sack (A1)
+                5111,  # Frayed Sack (M1)
+                6264,  # Frayed Sack (H1)
+                ],
+            1000:
+                monthly_1000_items + [
+                9277,  # Silver Voucher
+                ],
+            1500: monthly_1500_items
+        },
     }
 }
 
