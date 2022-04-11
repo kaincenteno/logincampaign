@@ -1,7 +1,6 @@
 #!/bin/python3
-import settings
-import campaign_data
-
+from data import settings
+from data import campaign_data
 
 campaign_data.create_file(
     settings.CAMPAIGN_NUMBER,
