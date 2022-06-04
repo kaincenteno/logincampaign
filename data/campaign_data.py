@@ -61,7 +61,7 @@ rotation_a_300_items = [
     4066,  # Rem's Tale Ch.3
     4067,  # Rem's Tale Ch.4
     4068,  # Rem's Tale Ch.5
-    ]
+]
 
 rotation_a_1000_items = [
     4069,  # Copy Of Rem's Tale, Chapter 6
@@ -93,15 +93,15 @@ data = {
                     25675,  # White Rarab Cap
                     20578,  # Wind Knife
                     23753,  # Sandogasa
-                 ] + rotation_a_300_items,
+                ] + rotation_a_300_items,
             500: [
                     23800,  # Cancrine Apron
-                ],
+                    ],
             750: [
                     9079,  # Kitchen Brick
                     9080,  # Kitchen Stove
                     9081,  # Kitchen Plate
-                 ] + monthly_750_items,
+                ] + monthly_750_items,
             1000:
                 monthly_1000_items +
                 rotation_a_1000_items,
@@ -131,25 +131,25 @@ data = {
                     21820,  # Lost Sickle
                     3739,  # Autumn Tree
                     54,  # Chocobo Commode
-                ],
+                    ],
             500: [
                     3749,  # Chemistry Set
-                ],
+                    ],
             750: [
                     3885,  # Melodious Plans
                     3886,  # Timbre Case Kit
                     3887,  # Musichinery Kit
-                 ] +
-                 monthly_750_items + [
+                ] +
+            monthly_750_items + [
                     6576,  # Turkey with Rolanberry Sauce
-                 ],
+                ],
             1000:
                 monthly_1000_items + [
                     3640,  # Rol. Delightaru
                     3714,  # White Clematis
                     3715,  # Pink Clematis
                     3717,  # Birch Tree
-                ],
+                    ],
             1500: monthly_1500_items,
         },
     },
@@ -171,6 +171,7 @@ data = {
             300: [
                     10069,  # ♪Goobbue
                     10051,  # ♪Crab
+                    10053,  # ♪Bomb
                     10058,  # ♪Beetle
                     10384,  # Cumulus Masque
                     20666,  # Blizzard Brand
@@ -178,18 +179,18 @@ data = {
                     25757,  # Wyrmking Suit +1
                     10073,  # ♪Dhalmel
                     10076,  # ♪Golden Bomb
-                ],
+                    ],
             500: [
                     10079,  # ♪Iron Giant
-                ],
+                    ],
             750: [
                     9079,  # Kitchen Brick
                     9080,  # Kitchen Stove
                     9081,  # Kitchen Plate
-                ] + monthly_750_items + [
+                    ] + monthly_750_items + [
                     1873,  # Brigand's Chart
                     1874,  # Pirate's Chart
-                ],
+                    ],
             1000:
                 monthly_1000_items + [
                     6486,  # Frayed Sack (Pel)
@@ -207,7 +208,7 @@ data = {
                     6560,  # Worn Sack (SO+2)
                     6562,  # Worn Sack (LO+2)
                     6564,  # Worn Sack (DO+2)
-                ],
+                    ],
             1500:
                 monthly_1500_items + [
                     8720,  # Maliya. Coral Orb
@@ -216,7 +217,7 @@ data = {
                     8726,  # Exalted Lumber
                     8728,  # Sif's Macrame
                     28653,  # Mundus Shield
-                ],
+                    ],
         },
     },
     102: {
@@ -259,15 +260,15 @@ data = {
                 23800,  # Cancrine Apron
                 3749,  # Chemistry Set
                 10079,  # ♪Iron Giant
-            ],
+                ],
             750: [
                 3885,  # Melodious Plans
                 3886,  # Timbre Case Kit
                 3887,  # Musichinery Kit
-                ] + monthly_750_items + [
+                    ] + monthly_750_items + [
                     1873,  # Brigand's Chart
                     1874,  # Pirate's Chart
-                ] + rotation_a_1000_items,
+                    ] + rotation_a_1000_items,
             1000:
                 monthly_1000_items,
             1500:
@@ -299,17 +300,17 @@ data = {
                 3740,  # Model Synergy Furnace
                 23790,  # Adenium Masque
                 23791,  # Adenium Suit
-            ],
+                ],
             500: [
                     22045,  # Feline Hagoita
-                ],
+                    ],
             750: [
                     9079,  # Kitchen Brick
                     9080,  # Kitchen Stove
                     9081,  # Kitchen Plate
-                ] + monthly_750_items + [
+                    ] + monthly_750_items + [
                     3713,  # Pot of Wards
-                ],
+                    ],
             1000:
                 monthly_1000_items + [
                     9057,  # Ayapec's Shell
@@ -320,7 +321,7 @@ data = {
                     9097,  # Mhuufya's Beak
                     9051,  # Camahueto's Fur
                     9031,  # Vedrfolnir's Wing
-                ],
+                    ],
             1500:
                 monthly_1500_items + [
                     3977,  # Gabbrath Horn
@@ -336,7 +337,7 @@ data = {
                     8752,  # Cehuetzi Claw
                     8753,  # Cehuetzi Ice Shard
                     8754,  # Cehuetzi Pelt
-                ],
+                    ],
         },
     },
     104: {
@@ -359,23 +360,23 @@ data = {
                     10074,  # ♪Doll
                     26545,  # Mithkabob Shirt
                     10078,  # ♪Wivre
-                ],
+                    ],
             500: [
                     3751,  # Besigiled Table
-                ],
+                    ],
             750: [
                     3885,  # Melodious Plans
                     3886,  # Timbre Case Kit
                     3887,  # Musichinery Kit
-                 ] + monthly_750_items + [
+                ] + monthly_750_items + [
                     6381,  # Fisherman's Feast
-                 ],
+                ],
             1000:
                 monthly_1000_items + [
                     6486,  # Frayed Sack (Pel)
                     6487,  # Frayed Sack (Fer)
                     6488,  # Frayed Sack (Tau)
-                ],
+                    ],
             1500:
                 monthly_1500_items + [
                     3491,  # Akvan's Pennon
@@ -384,7 +385,7 @@ data = {
                     3445,  # Hahava's Mail
                     3490,  # Pil's Tuille
                     3447,  # Voidwrought Plate
-                ],
+                    ],
         },
     },
     105: {
@@ -418,15 +419,15 @@ data = {
                     3726,  # Aphmau Statue
                     21977,  # Mutsunokami
                     3744,  # Mandragora Pot
-                ],
+                    ],
             500: [
                     10080,  # ♪Byakko
-                ],
+                    ],
             750: [
                     9079,  # Kitchen Brick
                     9080,  # Kitchen Stove
                     9081,  # Kitchen Plate
-                ] + monthly_750_items,
+                    ] + monthly_750_items,
             1000:
                 monthly_1000_items + [
                     6542,  # Worn Sack (SS+2)
@@ -441,7 +442,7 @@ data = {
                     6560,  # Worn Sack (SO+2)
                     6562,  # Worn Sack (LO+2)
                     6564,  # Worn Sack (DO+2)
-                ],
+                    ],
             1500:
                 monthly_1500_items,
         },
@@ -476,27 +477,104 @@ data = {
                     3744,  # Mandragora Pot
                     23790,  # Adenium Masque
                     23791,  # Adenium Suit
-                ],
+                    ],
             500: [
                     22045,  # Feline Hagoita
                     3751,  # Besigiled Table
                     10080,  # ♪Byakko
-                ],
+                    ],
             750: [
-                     3885,  # Melodious Plans
-                     3886,  # Timbre Case Kit
-                     3887,  # Musichinery Kit
-                 ] + monthly_750_items + [
-                     5109,  # Frayed Sack (A1)
-                     5111,  # Frayed Sack (M1)
-                     6264,  # Frayed Sack (H1)
-                 ],
+                    3885,  # Melodious Plans
+                    3886,  # Timbre Case Kit
+                    3887,  # Musichinery Kit
+                ] + monthly_750_items + [
+                    5109,  # Frayed Sack (A1)
+                    5111,  # Frayed Sack (M1)
+                    6264,  # Frayed Sack (H1)
+                ],
             1000:
                 monthly_1000_items + [
                     9277,  # Silver Voucher
-                ],
+                    ],
             1500: monthly_1500_items
-        }
+        },
+    },
+    107: {
+        'year': 2022,
+        'month': 5,
+        'prizes': {
+            10:
+                monthly_10_items,
+            100:
+                monthly_100_items + [
+                    6413,   # Astral Cube
+                    3705,   # Far East Hearth
+                    3705,   # Far East Hearth
+                    26703,  # Lycopodium Masque
+                    25639,  # Korrigan Masque
+                    25715,  # Korrigan Suit
+                    20713,  # Excalipoor
+                    20668,  # Firetongue
+                    10384,  # Cumulus Masque
+                    3718,   # Ado. Tomatoes
+                    10112,  # Cipher: Zeid
+                    10113,  # Cipher: Lion
+                    10118,  # Cipher: Naja
+                    10120,  # Cipher: Lehko
+                    10124,  # Cipher: Luzaf
+                    10125,  # Cipher: Najelith
+                    10129,  # Cipher: Domina
+                    10134,  # Cipher: S. Sibyl
+                    10142,  # Cipher: Karaha
+                    10149,  # Cipher: Areuhat
+                    10136,  # Cipher: Uka
+                    10141,  # Cipher: Kuyin
+                    10144,  # Cipher: Abenzio
+                    10145,  # Cipher: Rughadjeen
+                    10150,  # Cipher: Lhe
+                    10151,  # Cipher: Mayakov
+                    10155,  # Cipher: Brygid
+                    10156,  # Cipher: Mildaurion
+                    10161,  # Cipher: Rongelouts
+                    10166,  # Cipher: Robel-Akbel
+                    10178,  # Cipher: Ullegore
+                    10179,  # Cipher: Teodor
+                    10183,  # Cipher: Darrcuiln
+                ],
+            300: [
+                    10187,  # Cipher: Shantotto II
+                    10050,  # ♪Tiger companion
+                    10051,  # ♪Crab
+                    10056,  # ♪Crawler
+                    10058,  # ♪Beetle
+                    10060,  # ♪Magic Pot
+                    10061,  # ♪Tulfaire
+                    10062,  # ♪Warmachine
+                    10063,  # ♪Xzomit
+                    10064,  # ♪Hyppogryph
+                    10066,  # ♪Spheroid
+                    4064,   # Rem's Tale Ch.1
+                    4065,   # Rem's Tale Ch.2
+                    4066,   # Rem's Tale Ch.3
+                    4067,   # Rem's Tale Ch.4
+                    4068,   # Rem's Tale Ch.5
+                    ],
+            500: [
+                    10081,  # ♪Noble Chocobo
+                    ],
+            750: [
+                    9079,  # Kitchen Brick
+                    9080,  # Kitchen Stove
+                    9081,  # Kitchen Plate
+                    ] + monthly_750_items + [
+                    1873,  # Brigand's Chart
+                    1874,  # Pirate's Chart
+                    ] + rotation_a_1000_items,
+            1000:
+                monthly_1000_items,
+            1500:
+                monthly_1500_items,
+        },
     },
 }
 
@@ -504,7 +582,7 @@ data = {
 def create_file(campaign_number, file):
     f = open(file + "/scripts/globals/events/login_campaign_data.lua", "w")
     option_id = 1
-    
+
     f.write("local prizes =\n")
     f.write("{\n")
     for price in data[campaign_number]['prizes']:
@@ -549,7 +627,8 @@ def change_campaign_date(campaign_number, day, duration, file):
         if line.find("loginCampaignYear = ") != -1:
             print("loginCampaignYear = " + str(data[campaign_number]['year']))
         elif line.find("loginCampaignMonth = ") != -1:
-            print("loginCampaignMonth = " + str(data[campaign_number]['month']))
+            print("loginCampaignMonth = " +
+                  str(data[campaign_number]['month']))
         elif line.find("loginCampaignDay = ") != -1:
             print("loginCampaignDay = " + str(day))
         elif line.find("loginCampaignDuration = ") != -1:
