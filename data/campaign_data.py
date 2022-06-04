@@ -509,7 +509,6 @@ data = {
                 monthly_100_items + [
                     6413,   # Astral Cube
                     3705,   # Far East Hearth
-                    3705,   # Far East Hearth
                     26703,  # Lycopodium Masque
                     25639,  # Korrigan Masque
                     25715,  # Korrigan Suit
