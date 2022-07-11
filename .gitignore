@@ -3,3 +3,4 @@ __pycache__/
 
 .idea/
 data/settings.py
+login_campaign_data.lua

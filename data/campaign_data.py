@@ -645,8 +645,12 @@ data = {
 }
 
 
-def create_file(campaign_number, file):
-    f = open(file + "/scripts/globals/events/login_campaign_data.lua", "w")
+def create_file(docker, campaign_number, file):
+    if docker:
+        f = open("login_campaign_data.lua", "w")
+    else:
+        f = open(file + "/scripts/globals/events/login_campaign_data.lua", "w")
+
     option_id = 1
 
     f.write("local prizes =\n")
