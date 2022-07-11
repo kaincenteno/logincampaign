@@ -575,6 +575,73 @@ data = {
                 monthly_1500_items,
         },
     },
+    108: {
+        'year': 2022,
+        'month': 6,
+        'prizes': {
+            10:
+                monthly_10_items,
+            100:
+                monthly_100_items + [
+                    6008,   # Copse Candy
+                    26738,  # Leafkin Cap
+                    20532,  # Worm Feelers
+                    27717,  # Worm Masque
+                    1850,   # First Virtue
+                    1853,   # Second Virtue
+                    1856,   # Third Virtue
+                    1851,   # Deed of Placidity
+                    1854,   # Deed of Moder.
+                    1870,   # Deed of Sensib.
+                ],
+            300: [
+                    25652,  # Crab Cap
+                    26956,  # Poroggo Coat
+                    3722,   # Lion Statue
+                    26524,  # Gil Nabber Shirt
+                    3720,   # Arciela Statue
+                    22153,  # Silver Gun
+                    10068,  # ♪Coeurl
+                    10069,  # ♪Goobbue
+                    10070,  # ♪Raaz
+                    10072,  # ♪Adamantoise
+                    10073,  # ♪Dhalmel
+                    10074,  # ♪Doll
+                    10075,  # ♪Red Raptor
+                    10076,  # ♪Golden Bomb
+                    10078,  # ♪Wivre
+                    10079,  # ♪Iron Giant
+                    10080,  # ♪Byakko
+                    4064,   # Rem's Tale Ch.1
+                    4065,   # Rem's Tale Ch.2
+                    4066,   # Rem's Tale Ch.3
+                    4067,   # Rem's Tale Ch.4
+                    4068,   # Rem's Tale Ch.5
+                    ],
+            500: [
+                    23803,  # Poroggo Cassock
+                    ],
+            750: [
+                    3885,  # Melodious Plans
+                    3886,  # Timbre Case Kit
+                    3887,  # Musichinery Kit
+                    ] + monthly_750_items + [
+                    ] + rotation_a_1000_items + [
+                    1110,  # Black Beetle Blood
+                    844,   # Phoenix Feather
+                    836,   # Damascene Cloth
+                    837,   # Malboro Fiber
+                    1311,  # Oxblood
+                    9009,  # Etched Memory
+                    ],
+            1000:
+                monthly_1000_items + [
+                    15554,  # Pelican Ring
+                ],
+            1500:
+                monthly_1500_items,
+        },
+    },
 }
 
 
