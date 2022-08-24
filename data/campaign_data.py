@@ -653,21 +653,21 @@ data = {
                     6413,   # Astral Cube
                     3705,   # Far East Hearth
                     20713,  # Excalipoor
-					18879,	# Rounsey Wand
-					21107,	# Kyuka Uchiwa
-					27757,	# Bomb Masque
-					25672,	# Snoll Masque
-					21095,	# Heartstopper
-					16120,	# Redeyes
+		    18879,  # Rounsey Wand
+		    21107,  # Kyuka Uchiwa
+		    27757,  # Bomb Masque
+		    25672,  # Snoll Masque
+		    21095,  # Heartstopper
+		    16120,  # Redeyes
                 ],
             300: [
-                    10053,	# ♪Bomb
-					10063,	# ♪Xzomit
-					21965,	# Zanmato
-					3732,	# Crimson Chest
-					3743,	# Moogle Bed
-					3748,	# Leafkin Bed
-					4064,   # Rem's Tale Ch.1
+                    10053,  # ♪Bomb
+		    10063,  # ♪Xzomit
+		    21965,  # Zanmato
+	            3732,   # Crimson Chest
+		    3743,   # Moogle Bed
+  		    3748,   # Leafkin Bed
+					4064,    # Rem's Tale Ch.1
                     4065,   # Rem's Tale Ch.2
                     4066,   # Rem's Tale Ch.3
                     4067,   # Rem's Tale Ch.4
@@ -681,39 +681,39 @@ data = {
                     9080,  # Kitchen Stove
                     9081,  # Kitchen Plate
                     ] + monthly_750_items + [
-                    6381,	# Fisherman's Feast
-					4069,	# Rem's Tale Ch. 6
-					4070,	# Rem's Tale Ch. 7
-					4071,	# Rem's Tale Ch. 8
-					4072,	# Rem's Tale Ch. 9
-					4073,	# Rem's Tale Ch. 10
-					1110,	# Black Beetle Blood
-					844,	# Phoenix Feather
-					836,	# Damascene Cloth
-					837,	# Malboro Fiber
-					1311,	# Oxblood
-					9009,	# Etched Memory
-					],
+                    6381,  # Fisherman's Feast
+		    4069,  # Rem's Tale Ch. 6
+		    4070,  # Rem's Tale Ch. 7
+		    4071,  # Rem's Tale Ch. 8
+		    4072,  # Rem's Tale Ch. 9
+		    4073,  # Rem's Tale Ch. 10
+		    1110,  # Black Beetle Blood
+		    844,   # Phoenix Feather
+		    836,   # Damascene Cloth
+		    837,   # Malboro Fiber
+		    1311,  # Oxblood
+		    9009,  # Etched Memory
+		    ],
             1000:
                 monthly_1000_items + [
-					2932,	# Kukulkan's Fang
-					2928,	# Two-Lead Chloris Bud
-					2927,	# Glavoid Shell
-					2929,	# Helm of Briareus
-					2930,	# Carabosse's Gem
-					2962,	# Itzpapalotl's Scale
-					2963,	# Ulhuadshi's Fang
-					2965,	# Ciren-croin's Lantern
-					2964,	# Sobek's Skin
-					2966,	# Bukhis's Wing
-					2967,	# Sedna's Tusk
-					3287,	# Orthrus's Claw
-					3288,	# Dragua's Scale
-					3289,	# Apademak's Horn
-					3292,	# Azdaja's Horn
-					3290,	# Isgebind's Heart
-					3291,	# Alfrad's Fang
-				],
+		    2932,  # Kukulkan's Fang
+		    2928,  # Two-Lead Chloris Bud
+		    2927,  # Glavoid Shell
+		    2929,  # Helm of Briareus
+		    2930,  # Carabosse's Gem
+		    2962,  # Itzpapalotl's Scale
+		    2963,  # Ulhuadshi's Fang
+		    2965,  # Ciren-croin's Lantern
+		    2964,  # Sobek's Skin
+		    2966,  # Bukhis's Wing
+		    2967,  # Sedna's Tusk
+		    3287,  # Orthrus's Claw
+		    3288,  # Dragua's Scale
+		    3289,  # Apademak's Horn
+		    3292,  # Azdaja's Horn
+		    3290,  # Isgebind's Heart
+		    3291,  # Alfrad's Fang
+		   ],
             1500:
                 monthly_1500_items,
         },
@@ -727,68 +727,68 @@ data = {
                 monthly_10_items,
             100:
                 monthly_100_items + [
-                    21967,	# Melon Slicer
-					10112,	# Cipher: Zeid
-					10113,	# Cipher: Lion
-					10118,	# Cipher: Naja
-					10120,	# Cipher: Lehko
-					10124,	# Cipher: Luzaf
-					10125,	# Cipher: Najelith
-					10129,	# Cipher: Domina
-					10134,	# Cipher: Star Sibyl
-					10142,	# Cipher: Karaha
-					10149,	# Cipher: Areuhat
-					10136,	# Cipher: Uka
-					10141,	# Cipher: Kuyin
-					10144,	# Cipher: Abenzio
-					10145,	# Cipher: Rughadjeen
-					10150,	# Cipher: Lhe
-					10151,	# Cipher: Mayakov
-					10155,	# Cipher: Bygid
-					10156,	# Cipher: Mildaurion
-					10161,	# Cipher: Rongelouts
-					10166,	# Cipher: Robel-Akbel
-					10178,	# Cipher: Ullegore
-					10179,	# Cipher: Teodor
-					10183,	# Cipher: Darrcuiln
+                    21967,  # Melon Slicer
+		    10112,  # Cipher: Zeid
+		    10113,  # Cipher: Lion
+		    10118,  # Cipher: Naja
+		    10120,  # Cipher: Lehko
+		    10124,  # Cipher: Luzaf
+		    10125,  # Cipher: Najelith
+		    10129,  # Cipher: Domina
+		    10134,  # Cipher: Star Sibyl
+		    10142,  # Cipher: Karaha
+		    10149,  # Cipher: Areuhat
+		    10136,  # Cipher: Uka
+		    10141,  # Cipher: Kuyin
+		    10144,  # Cipher: Abenzio
+		    10145,  # Cipher: Rughadjeen
+		    10150,  # Cipher: Lhe
+		    10151,  # Cipher: Mayakov
+		    10155,  # Cipher: Bygid
+		    10156,  # Cipher: Mildaurion
+		    10161,  # Cipher: Rongelouts
+		    10166,  # Cipher: Robel-Akbel
+		    10178,  # Cipher: Ullegore
+		    10179,  # Cipher: Teodor
+		    10183,  # Cipher: Darrcuiln
                 ],
             300: [
                     10187,  # Cipher: Shantotto II
-					20668,	# Firetongue
-					21965,	# Zanmato
-					21867,	# Sha Wujin's Lance
-					3722,	# Lion Statue
-					3720,	# Arciela Statue
-					3732,	# Crimson Chest
-					10068,	# ♪Coeurl
-					10072,	# ♪Adamantoise
-					22017,	# Selka Uchiwa
-					25774,	# Fancy Gilet
-					25775,	# Fancy Top
-					25838,	# Fancy Trunks
-					25839,	# Fancy Shorts
-					26514,	# Poroggo Fleece
-					3743,	# Moogle Bed
-					3718,	# Ado. Tomatoes
-					10075,	# ♪Red Raptor
-					22153,	# Silver Gun
-					3748,	# Leafkin Bed
-                    ],
+	   	    20668,  # Firetongue
+		    21965,  # Zanmato
+		    21867,  # Sha Wujin's Lance
+		    3722,   # Lion Statue
+		    3720,   # Arciela Statue
+		    3732,   # Crimson Chest
+		    10068,  # ♪Coeurl
+		    10072,  # ♪Adamantoise
+		    22017,  # Selka Uchiwa
+		    25774,  # Fancy Gilet
+		    25775,  # Fancy Top
+		    25838,  # Fancy Trunks
+		    25839,  # Fancy Shorts
+		    26514,  # Poroggo Fleece
+		    3743,   # Moogle Bed
+		    3718,   # Ado. Tomatoes
+		    10075,  # ♪Red Raptor
+		    22153,  # Silver Gun
+		    3748,   # Leafkin Bed
+                   ],
             500: [
                     10081,  # ♪Noble Chocobo
-					23803,	# Poroggo Cassock
-					3752,	# Colibri Bed
+		    23803,  # Poroggo Cassock
+		    3752,   # Colibri Bed
                     ],
             750: [
-                    3885,	# Meldious Plans
-					3886,	# Timbre Case Kit
-					3887,	# Musichinery Kit
+                    3885,   # Meldious Plans
+		    3886,   # Timbre Case Kit
+		    3887,   # Musichinery Kit
                     ] + monthly_750_items,
             1000:
                 monthly_1000_items + [
-					6486,	# Frayed Sack(Pel)
-					6487,	# Frayed Sack(Fer)
-					6488,	# Frayed Sack(Tau)
+		    6486,   # Frayed Sack(Pel)
+		    6487,   # Frayed Sack(Fer)
+		    6488,   # Frayed Sack(Tau)
 				],
             1500:
                 monthly_1500_items,
