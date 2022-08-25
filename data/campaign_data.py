@@ -93,15 +93,15 @@ data = {
                     25675,  # White Rarab Cap
                     20578,  # Wind Knife
                     23753,  # Sandogasa
-                ] + rotation_a_300_items,
+            ] + rotation_a_300_items,
             500: [
                     23800,  # Cancrine Apron
-                    ],
+                ],
             750: [
                     9079,  # Kitchen Brick
                     9080,  # Kitchen Stove
                     9081,  # Kitchen Plate
-                ] + monthly_750_items,
+            ] + monthly_750_items,
             1000:
                 monthly_1000_items +
                 rotation_a_1000_items,
@@ -131,25 +131,25 @@ data = {
                     21820,  # Lost Sickle
                     3739,  # Autumn Tree
                     54,  # Chocobo Commode
-                    ],
+                ],
             500: [
                     3749,  # Chemistry Set
-                    ],
+                ],
             750: [
                     3885,  # Melodious Plans
                     3886,  # Timbre Case Kit
                     3887,  # Musichinery Kit
-                ] +
+            ] +
             monthly_750_items + [
                     6576,  # Turkey with Rolanberry Sauce
-                ],
+            ],
             1000:
                 monthly_1000_items + [
                     3640,  # Rol. Delightaru
                     3714,  # White Clematis
                     3715,  # Pink Clematis
                     3717,  # Birch Tree
-                    ],
+                ],
             1500: monthly_1500_items,
         },
     },
@@ -179,18 +179,18 @@ data = {
                     25757,  # Wyrmking Suit +1
                     10073,  # ♪Dhalmel
                     10076,  # ♪Golden Bomb
-                    ],
+                ],
             500: [
                     10079,  # ♪Iron Giant
-                    ],
+                ],
             750: [
                     9079,  # Kitchen Brick
                     9080,  # Kitchen Stove
                     9081,  # Kitchen Plate
-                    ] + monthly_750_items + [
+                ] + monthly_750_items + [
                     1873,  # Brigand's Chart
                     1874,  # Pirate's Chart
-                    ],
+                ],
             1000:
                 monthly_1000_items + [
                     6486,  # Frayed Sack (Pel)
@@ -208,7 +208,7 @@ data = {
                     6560,  # Worn Sack (SO+2)
                     6562,  # Worn Sack (LO+2)
                     6564,  # Worn Sack (DO+2)
-                    ],
+                ],
             1500:
                 monthly_1500_items + [
                     8720,  # Maliya. Coral Orb
@@ -217,7 +217,7 @@ data = {
                     8726,  # Exalted Lumber
                     8728,  # Sif's Macrame
                     28653,  # Mundus Shield
-                    ],
+                ],
         },
     },
     102: {
@@ -260,15 +260,15 @@ data = {
                 23800,  # Cancrine Apron
                 3749,  # Chemistry Set
                 10079,  # ♪Iron Giant
-                ],
+            ],
             750: [
                 3885,  # Melodious Plans
                 3886,  # Timbre Case Kit
                 3887,  # Musichinery Kit
-                    ] + monthly_750_items + [
+                ] + monthly_750_items + [
                     1873,  # Brigand's Chart
                     1874,  # Pirate's Chart
-                    ] + rotation_a_1000_items,
+                ] + rotation_a_1000_items,
             1000:
                 monthly_1000_items,
             1500:
@@ -300,17 +300,17 @@ data = {
                 3740,  # Model Synergy Furnace
                 23790,  # Adenium Masque
                 23791,  # Adenium Suit
-                ],
+            ],
             500: [
                     22045,  # Feline Hagoita
-                    ],
+                ],
             750: [
                     9079,  # Kitchen Brick
                     9080,  # Kitchen Stove
                     9081,  # Kitchen Plate
-                    ] + monthly_750_items + [
+                ] + monthly_750_items + [
                     3713,  # Pot of Wards
-                    ],
+                ],
             1000:
                 monthly_1000_items + [
                     9057,  # Ayapec's Shell
@@ -321,7 +321,7 @@ data = {
                     9097,  # Mhuufya's Beak
                     9051,  # Camahueto's Fur
                     9031,  # Vedrfolnir's Wing
-                    ],
+                ],
             1500:
                 monthly_1500_items + [
                     3977,  # Gabbrath Horn
@@ -337,7 +337,7 @@ data = {
                     8752,  # Cehuetzi Claw
                     8753,  # Cehuetzi Ice Shard
                     8754,  # Cehuetzi Pelt
-                    ],
+                ],
         },
     },
     104: {
@@ -360,23 +360,23 @@ data = {
                     10074,  # ♪Doll
                     26545,  # Mithkabob Shirt
                     10078,  # ♪Wivre
-                    ],
+                ],
             500: [
                     3751,  # Besigiled Table
-                    ],
+                ],
             750: [
                     3885,  # Melodious Plans
                     3886,  # Timbre Case Kit
                     3887,  # Musichinery Kit
-                ] + monthly_750_items + [
+            ] + monthly_750_items + [
                     6381,  # Fisherman's Feast
-                ],
+            ],
             1000:
                 monthly_1000_items + [
                     6486,  # Frayed Sack (Pel)
                     6487,  # Frayed Sack (Fer)
                     6488,  # Frayed Sack (Tau)
-                    ],
+                ],
             1500:
                 monthly_1500_items + [
                     3491,  # Akvan's Pennon
@@ -385,7 +385,7 @@ data = {
                     3445,  # Hahava's Mail
                     3490,  # Pil's Tuille
                     3447,  # Voidwrought Plate
-                    ],
+                ],
         },
     },
     105: {
@@ -419,15 +419,15 @@ data = {
                     3726,  # Aphmau Statue
                     21977,  # Mutsunokami
                     3744,  # Mandragora Pot
-                    ],
+                ],
             500: [
                     10080,  # ♪Byakko
-                    ],
+                ],
             750: [
                     9079,  # Kitchen Brick
                     9080,  # Kitchen Stove
                     9081,  # Kitchen Plate
-                    ] + monthly_750_items,
+                ] + monthly_750_items,
             1000:
                 monthly_1000_items + [
                     6542,  # Worn Sack (SS+2)
@@ -442,7 +442,7 @@ data = {
                     6560,  # Worn Sack (SO+2)
                     6562,  # Worn Sack (LO+2)
                     6564,  # Worn Sack (DO+2)
-                    ],
+                ],
             1500:
                 monthly_1500_items,
         },
@@ -477,25 +477,25 @@ data = {
                     3744,  # Mandragora Pot
                     23790,  # Adenium Masque
                     23791,  # Adenium Suit
-                    ],
+                ],
             500: [
                     22045,  # Feline Hagoita
                     3751,  # Besigiled Table
                     10080,  # ♪Byakko
-                    ],
+                ],
             750: [
                     3885,  # Melodious Plans
                     3886,  # Timbre Case Kit
                     3887,  # Musichinery Kit
-                ] + monthly_750_items + [
+            ] + monthly_750_items + [
                     5109,  # Frayed Sack (A1)
                     5111,  # Frayed Sack (M1)
                     6264,  # Frayed Sack (H1)
-                ],
+            ],
             1000:
                 monthly_1000_items + [
                     9277,  # Silver Voucher
-                    ],
+                ],
             1500: monthly_1500_items
         },
     },
@@ -557,18 +557,18 @@ data = {
                     4066,   # Rem's Tale Ch.3
                     4067,   # Rem's Tale Ch.4
                     4068,   # Rem's Tale Ch.5
-                    ],
+                ],
             500: [
                     10081,  # ♪Noble Chocobo
-                    ],
+                ],
             750: [
                     9079,  # Kitchen Brick
                     9080,  # Kitchen Stove
                     9081,  # Kitchen Plate
-                    ] + monthly_750_items + [
+                ] + monthly_750_items + [
                     1873,  # Brigand's Chart
                     1874,  # Pirate's Chart
-                    ] + rotation_a_1000_items,
+                ] + rotation_a_1000_items,
             1000:
                 monthly_1000_items,
             1500:
@@ -617,32 +617,32 @@ data = {
                     4066,   # Rem's Tale Ch.3
                     4067,   # Rem's Tale Ch.4
                     4068,   # Rem's Tale Ch.5
-                    ],
+                ],
             500: [
                     23803,  # Poroggo Cassock
-                    ],
+                ],
             750: [
                     3885,  # Melodious Plans
                     3886,  # Timbre Case Kit
                     3887,  # Musichinery Kit
-                    ] + monthly_750_items + [
-                    ] + rotation_a_1000_items + [
+                ] + monthly_750_items + [
+                ] + rotation_a_1000_items + [
                     1110,  # Black Beetle Blood
                     844,   # Phoenix Feather
                     836,   # Damascene Cloth
                     837,   # Malboro Fiber
                     1311,  # Oxblood
                     9009,  # Etched Memory
-                    ],
+                ],
             1000:
                 monthly_1000_items + [
                     15554,  # Pelican Ring
-                ],
+            ],
             1500:
                 monthly_1500_items,
         },
     },
-        109: {
+    109: {
         'year': 2022,
         'month': 7,
         'prizes': {
@@ -653,67 +653,67 @@ data = {
                     6413,   # Astral Cube
                     3705,   # Far East Hearth
                     20713,  # Excalipoor
-		    18879,  # Rounsey Wand
-		    21107,  # Kyuka Uchiwa
-		    27757,  # Bomb Masque
-		    25672,  # Snoll Masque
-		    21095,  # Heartstopper
-		    16120,  # Redeyes
+                    18879,  # Rounsey Wand
+                    21107,  # Kyuka Uchiwa
+                    27757,  # Bomb Masque
+                    25672,  # Snoll Masque
+                    21095,  # Heartstopper
+                    16120,  # Redeyes
                 ],
             300: [
                     10053,  # ♪Bomb
-		    10063,  # ♪Xzomit
-		    21965,  # Zanmato
-	            3732,   # Crimson Chest
-		    3743,   # Moogle Bed
-  		    3748,   # Leafkin Bed
-		    4064,   # Rem's Tale Ch.1
+                    10063,  # ♪Xzomit
+                    21965,  # Zanmato
+                    3732,   # Crimson Chest
+                    3743,   # Moogle Bed
+                    3748,   # Leafkin Bed
+                    4064,   # Rem's Tale Ch.1
                     4065,   # Rem's Tale Ch.2
                     4066,   # Rem's Tale Ch.3
                     4067,   # Rem's Tale Ch.4
                     4068,   # Rem's Tale Ch.5
-                    ],
+                ],
             500: [
                     3752,  # Colibri Bed
-                    ],
+                ],
             750: [
                     9079,  # Kitchen Brick
                     9080,  # Kitchen Stove
                     9081,  # Kitchen Plate
-                    ] + monthly_750_items + [
+                ] + monthly_750_items + [
                     6381,  # Fisherman's Feast
-		    4069,  # Rem's Tale Ch. 6
-		    4070,  # Rem's Tale Ch. 7
-		    4071,  # Rem's Tale Ch. 8
-		    4072,  # Rem's Tale Ch. 9
-		    4073,  # Rem's Tale Ch. 10
-		    1110,  # Black Beetle Blood
-		    844,   # Phoenix Feather
-		    836,   # Damascene Cloth
-		    837,   # Malboro Fiber
-		    1311,  # Oxblood
-		    9009,  # Etched Memory
-		    ],
+                    4069,  # Rem's Tale Ch. 6
+                    4070,  # Rem's Tale Ch. 7
+                    4071,  # Rem's Tale Ch. 8
+                    4072,  # Rem's Tale Ch. 9
+                    4073,  # Rem's Tale Ch. 10
+                    1110,  # Black Beetle Blood
+                    844,   # Phoenix Feather
+                    836,   # Damascene Cloth
+                    837,   # Malboro Fiber
+                    1311,  # Oxblood
+                    9009,  # Etched Memory
+                ],
             1000:
                 monthly_1000_items + [
-		    2932,  # Kukulkan's Fang
-		    2928,  # Two-Lead Chloris Bud
-		    2927,  # Glavoid Shell
-		    2929,  # Helm of Briareus
-		    2930,  # Carabosse's Gem
-		    2962,  # Itzpapalotl's Scale
-		    2963,  # Ulhuadshi's Fang
-		    2965,  # Ciren-croin's Lantern
-		    2964,  # Sobek's Skin
-		    2966,  # Bukhis's Wing
-		    2967,  # Sedna's Tusk
-		    3287,  # Orthrus's Claw
-		    3288,  # Dragua's Scale
-		    3289,  # Apademak's Horn
-		    3292,  # Azdaja's Horn
-		    3290,  # Isgebind's Heart
-		    3291,  # Alfrad's Fang
-		   ],
+                    2932,  # Kukulkan's Fang
+                    2928,  # Two-Lead Chloris Bud
+                    2927,  # Glavoid Shell
+                    2929,  # Helm of Briareus
+                    2930,  # Carabosse's Gem
+                    2962,  # Itzpapalotl's Scale
+                    2963,  # Ulhuadshi's Fang
+                    2965,  # Ciren-croin's Lantern
+                    2964,  # Sobek's Skin
+                    2966,  # Bukhis's Wing
+                    2967,  # Sedna's Tusk
+                    3287,  # Orthrus's Claw
+                    3288,  # Dragua's Scale
+                    3289,  # Apademak's Horn
+                    3292,  # Azdaja's Horn
+                    3290,  # Isgebind's Heart
+                    3291,  # Alfrad's Fang
+                    ],
             1500:
                 monthly_1500_items,
         },
@@ -728,68 +728,68 @@ data = {
             100:
                 monthly_100_items + [
                     21967,  # Melon Slicer
-		    10112,  # Cipher: Zeid
-		    10113,  # Cipher: Lion
-		    10118,  # Cipher: Naja
-		    10120,  # Cipher: Lehko
-		    10124,  # Cipher: Luzaf
-		    10125,  # Cipher: Najelith
-		    10129,  # Cipher: Domina
-		    10134,  # Cipher: Star Sibyl
-		    10142,  # Cipher: Karaha
-		    10149,  # Cipher: Areuhat
-		    10136,  # Cipher: Uka
-		    10141,  # Cipher: Kuyin
-		    10144,  # Cipher: Abenzio
-		    10145,  # Cipher: Rughadjeen
-		    10150,  # Cipher: Lhe
-		    10151,  # Cipher: Mayakov
-		    10155,  # Cipher: Bygid
-		    10156,  # Cipher: Mildaurion
-		    10161,  # Cipher: Rongelouts
-		    10166,  # Cipher: Robel-Akbel
-		    10178,  # Cipher: Ullegore
-		    10179,  # Cipher: Teodor
-		    10183,  # Cipher: Darrcuiln
+                    10112,  # Cipher: Zeid
+                    10113,  # Cipher: Lion
+                    10118,  # Cipher: Naja
+                    10120,  # Cipher: Lehko
+                    10124,  # Cipher: Luzaf
+                    10125,  # Cipher: Najelith
+                    10129,  # Cipher: Domina
+                    10134,  # Cipher: Star Sibyl
+                    10142,  # Cipher: Karaha
+                    10149,  # Cipher: Areuhat
+                    10136,  # Cipher: Uka
+                    10141,  # Cipher: Kuyin
+                    10144,  # Cipher: Abenzio
+                    10145,  # Cipher: Rughadjeen
+                    10150,  # Cipher: Lhe
+                    10151,  # Cipher: Mayakov
+                    10155,  # Cipher: Bygid
+                    10156,  # Cipher: Mildaurion
+                    10161,  # Cipher: Rongelouts
+                    10166,  # Cipher: Robel-Akbel
+                    10178,  # Cipher: Ullegore
+                    10179,  # Cipher: Teodor
+                    10183,  # Cipher: Darrcuiln
                 ],
             300: [
                     10187,  # Cipher: Shantotto II
-	   	    20668,  # Firetongue
-		    21965,  # Zanmato
-		    21867,  # Sha Wujin's Lance
-		    3722,   # Lion Statue
-		    3720,   # Arciela Statue
-		    3732,   # Crimson Chest
-		    10068,  # ♪Coeurl
-		    10072,  # ♪Adamantoise
-		    22017,  # Selka Uchiwa
-		    25774,  # Fancy Gilet
-		    25775,  # Fancy Top
-		    25838,  # Fancy Trunks
-		    25839,  # Fancy Shorts
-		    26514,  # Poroggo Fleece
-		    3743,   # Moogle Bed
-		    3718,   # Ado. Tomatoes
-		    10075,  # ♪Red Raptor
-		    22153,  # Silver Gun
-		    3748,   # Leafkin Bed
-                   ],
+                    20668,  # Firetongue
+                    21965,  # Zanmato
+                    21867,  # Sha Wujin's Lance
+                    3722,   # Lion Statue
+                    3720,   # Arciela Statue
+                    3732,   # Crimson Chest
+                    10068,  # ♪Coeurl
+                    10072,  # ♪Adamantoise
+                    22017,  # Selka Uchiwa
+                    25774,  # Fancy Gilet
+                    25775,  # Fancy Top
+                    25838,  # Fancy Trunks
+                    25839,  # Fancy Shorts
+                    26514,  # Poroggo Fleece
+                    3743,   # Moogle Bed
+                    3718,   # Ado. Tomatoes
+                    10075,  # ♪Red Raptor
+                    22153,  # Silver Gun
+                    3748,   # Leafkin Bed
+                    ],
             500: [
                     10081,  # ♪Noble Chocobo
-		    23803,  # Poroggo Cassock
-		    3752,   # Colibri Bed
-                    ],
+                    23803,  # Poroggo Cassock
+                    3752,   # Colibri Bed
+                ],
             750: [
                     3885,   # Meldious Plans
-		    3886,   # Timbre Case Kit
-		    3887,   # Musichinery Kit
-                    ] + monthly_750_items,
+                    3886,   # Timbre Case Kit
+                    3887,   # Musichinery Kit
+                ] + monthly_750_items,
             1000:
                 monthly_1000_items + [
-		    6486,   # Frayed Sack(Pel)
-		    6487,   # Frayed Sack(Fer)
-		    6488,   # Frayed Sack(Tau)
-				],
+                    6486,   # Frayed Sack(Pel)
+                    6487,   # Frayed Sack(Fer)
+                    6488,   # Frayed Sack(Tau)
+                    ],
             1500:
                 monthly_1500_items,
         },
@@ -837,9 +837,9 @@ def create_file(docker, campaign_number, file):
 
 
 def enable_login_campaign(file):
-    for line in fileinput.FileInput(file + "/scripts/settings/main.lua", inplace=True):
+    for line in fileinput.FileInput(file + "/settings/main.lua", inplace=True):
         if line.find("ENABLE_LOGIN_CAMPAIGN = ") != -1:
-            print("ENABLE_LOGIN_CAMPAIGN = 1,")
+            print("    ENABLE_LOGIN_CAMPAIGN = 1,")
         else:
             print(line, end='')
 
