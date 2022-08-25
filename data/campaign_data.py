@@ -667,7 +667,7 @@ data = {
 	            3732,   # Crimson Chest
 		    3743,   # Moogle Bed
   		    3748,   # Leafkin Bed
-					4064,    # Rem's Tale Ch.1
+		    4064,   # Rem's Tale Ch.1
                     4065,   # Rem's Tale Ch.2
                     4066,   # Rem's Tale Ch.3
                     4067,   # Rem's Tale Ch.4
