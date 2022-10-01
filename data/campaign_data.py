@@ -793,6 +793,62 @@ data = {
             1500:
                 monthly_1500_items,
         },
+            111: {
+        'year': 2022,
+        'month': 9,
+        'prizes': {
+            10:
+                monthly_10_items,
+            100:
+                monthly_100_items + [
+                    6413,  # Astral Cube
+                    3705,  # Far East Hearth
+                    4567,  # Moon Carrot
+                    4568,  # Moon Ball
+                    21153, # Malice Masher
+                ],
+            300: [
+                    10064, # ♪Hippogryph
+                    10056, # ♪Crawler
+                    3712,  # Iroha Statue
+                    25670, # Rarab Cap
+                    25675, # White Rarab Cap
+                    20578, # Wind Knife
+                    23753, # Sandogasa
+                    23800, # Cancrine Apron
+                    5854,  # Frayed Pouch (B)
+                    5855,  # Frayed Pouch (A)
+                    5856,  # Frayed Pouch (G)
+                    5857,  # Frayed Pouch (D)
+                    5858,  # Frayed Pouch (R)
+                    5946,  # Frayed Sack (D)
+                    5947,  # Frayed Sack (L)
+                    4064,  # Rem's Tale Ch.1
+                    4065,  # Rem's Tale Ch.2
+                    4066,  # Rem's Tale Ch.3
+                    4067,  # Rem's Tale Ch.4
+                    4068,  # Rem's Tale Ch.5
+                    ],
+            500: [
+                    25911, # Denim Pants
+                ],
+            750: [
+                    9079,  # Kitchen Brick
+                    9080,  # Kitchen Stove
+                    9081,  # Kitchen Plate
+                ] + monthly_750_items + [
+                    4069,  #Rem's Tale Ch. 6
+                    4070,  #Rem's Tale Ch. 7
+                    4071,  #Rem's Tale Ch. 8
+                    4072,  #Rem's Tale Ch. 9
+                    4073,  #Rem's Tale Ch. 10
+                    ],
+            1000:
+                monthly_1000_items,
+            1500:
+                monthly_1500_items,
+        },
+    },
     },
 }
 
