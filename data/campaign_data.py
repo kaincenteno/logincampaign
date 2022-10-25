@@ -56,6 +56,9 @@ rotation_a_300_items = [
     5858,  # Frayed Pouch (R)
     5946,  # Frayed Sack (D)
     5947,  # Frayed Sack (L)
+]
+
+rems_tale_1_to_5 = [
     4064,  # Rem's Tale Ch.1
     4065,  # Rem's Tale Ch.2
     4066,  # Rem's Tale Ch.3
@@ -63,7 +66,7 @@ rotation_a_300_items = [
     4068,  # Rem's Tale Ch.5
 ]
 
-rotation_a_1000_items = [
+rems_tale_6_to_10 = [
     4069,  # Copy Of Rem's Tale, Chapter 6
     4070,  # Copy Of Rem's Tale, Chapter 7
     4071,  # Copy Of Rem's Tale, Chapter 8
@@ -93,7 +96,8 @@ data = {
                     25675,  # White Rarab Cap
                     20578,  # Wind Knife
                     23753,  # Sandogasa
-            ] + rotation_a_300_items,
+                ] + rotation_a_300_items +
+            rems_tale_1_to_5,
             500: [
                     23800,  # Cancrine Apron
                 ],
@@ -104,7 +108,7 @@ data = {
             ] + monthly_750_items,
             1000:
                 monthly_1000_items +
-                rotation_a_1000_items,
+                rems_tale_6_to_10,
             1500: monthly_1500_items,
         },
     },
@@ -253,7 +257,8 @@ data = {
                     10183,  # Cipher: Darrcuiln
                 ],
             300:
-                rotation_a_300_items + [
+                rotation_a_300_items +
+                rems_tale_1_to_5 + [
                     10187,  # Cipher: Shantotto II
                 ],
             500: [
@@ -268,7 +273,7 @@ data = {
                 ] + monthly_750_items + [
                     1873,  # Brigand's Chart
                     1874,  # Pirate's Chart
-                ] + rotation_a_1000_items,
+                ] + rems_tale_6_to_10,
             1000:
                 monthly_1000_items,
             1500:
@@ -552,12 +557,7 @@ data = {
                     10063,  # ♪Xzomit
                     10064,  # ♪Hyppogryph
                     10066,  # ♪Spheroid
-                    4064,   # Rem's Tale Ch.1
-                    4065,   # Rem's Tale Ch.2
-                    4066,   # Rem's Tale Ch.3
-                    4067,   # Rem's Tale Ch.4
-                    4068,   # Rem's Tale Ch.5
-                ],
+                ] + rems_tale_1_to_5,
             500: [
                     10081,  # ♪Noble Chocobo
                 ],
@@ -568,7 +568,7 @@ data = {
                 ] + monthly_750_items + [
                     1873,  # Brigand's Chart
                     1874,  # Pirate's Chart
-                ] + rotation_a_1000_items,
+                ] + rems_tale_6_to_10,
             1000:
                 monthly_1000_items,
             1500:
@@ -612,12 +612,7 @@ data = {
                     10078,  # ♪Wivre
                     10079,  # ♪Iron Giant
                     10080,  # ♪Byakko
-                    4064,   # Rem's Tale Ch.1
-                    4065,   # Rem's Tale Ch.2
-                    4066,   # Rem's Tale Ch.3
-                    4067,   # Rem's Tale Ch.4
-                    4068,   # Rem's Tale Ch.5
-                ],
+                ] + rems_tale_1_to_5,
             500: [
                     23803,  # Poroggo Cassock
                 ],
@@ -626,7 +621,7 @@ data = {
                     3886,  # Timbre Case Kit
                     3887,  # Musichinery Kit
                 ] + monthly_750_items + [
-                ] + rotation_a_1000_items + [
+                ] + rems_tale_6_to_10 + [
                     1110,  # Black Beetle Blood
                     844,   # Phoenix Feather
                     836,   # Damascene Cloth
@@ -667,12 +662,7 @@ data = {
                     3732,   # Crimson Chest
                     3743,   # Moogle Bed
                     3748,   # Leafkin Bed
-                    4064,   # Rem's Tale Ch.1
-                    4065,   # Rem's Tale Ch.2
-                    4066,   # Rem's Tale Ch.3
-                    4067,   # Rem's Tale Ch.4
-                    4068,   # Rem's Tale Ch.5
-                ],
+                ] + rems_tale_1_to_5,
             500: [
                     3752,  # Colibri Bed
                 ],
@@ -682,11 +672,7 @@ data = {
                     9081,  # Kitchen Plate
                 ] + monthly_750_items + [
                     6381,  # Fisherman's Feast
-                    4069,  # Rem's Tale Ch. 6
-                    4070,  # Rem's Tale Ch. 7
-                    4071,  # Rem's Tale Ch. 8
-                    4072,  # Rem's Tale Ch. 9
-                    4073,  # Rem's Tale Ch. 10
+                ] + rems_tale_6_to_10 + [
                     1110,  # Black Beetle Blood
                     844,   # Phoenix Feather
                     836,   # Damascene Cloth
@@ -823,12 +809,7 @@ data = {
                 5858,   # Frayed Pouch (R)
                 5946,   # Frayed Sack (D)
                 5947,   # Frayed Sack (L)
-                4064,   # Rem's Tale Ch.1
-                4065,   # Rem's Tale Ch.2
-                4066,   # Rem's Tale Ch.3
-                4067,   # Rem's Tale Ch.4
-                4068,   # Rem's Tale Ch.5
-                ],
+                ] + rems_tale_1_to_5,
             500: [
                 25911,  # Denim Pants
                 ],
@@ -836,13 +817,8 @@ data = {
                 9079,  # Kitchen Brick
                 9080,  # Kitchen Stove
                 9081,  # Kitchen Plate
-                ] + monthly_750_items + [
-                4069,  # Rem's Tale Ch. 6
-                4070,  # Rem's Tale Ch. 7
-                4071,  # Rem's Tale Ch. 8
-                4072,  # Rem's Tale Ch. 9
-                4073,  # Rem's Tale Ch. 10
-                ],
+                ] + monthly_750_items
+            + rems_tale_6_to_10,
             1000:
                 monthly_1000_items,
             1500:
