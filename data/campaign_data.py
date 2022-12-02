@@ -97,7 +97,7 @@ data = {
                     20578,  # Wind Knife
                     23753,  # Sandogasa
                 ] + rotation_a_300_items +
-            rems_tale_1_to_5,
+                rems_tale_1_to_5,
             500: [
                     23800,  # Cancrine Apron
                 ],
@@ -105,7 +105,7 @@ data = {
                     9079,  # Kitchen Brick
                     9080,  # Kitchen Stove
                     9081,  # Kitchen Plate
-            ] + monthly_750_items,
+                ] + monthly_750_items,
             1000:
                 monthly_1000_items +
                 rems_tale_6_to_10,
@@ -143,10 +143,9 @@ data = {
                     3885,  # Melodious Plans
                     3886,  # Timbre Case Kit
                     3887,  # Musichinery Kit
-            ] +
-            monthly_750_items + [
+                ] + monthly_750_items + [
                     6576,  # Turkey with Rolanberry Sauce
-            ],
+                ],
             1000:
                 monthly_1000_items + [
                     3640,  # Rol. Delightaru
@@ -262,14 +261,14 @@ data = {
                     10187,  # Cipher: Shantotto II
                 ],
             500: [
-                23800,  # Cancrine Apron
-                3749,  # Chemistry Set
-                10079,  # ♪Iron Giant
-            ],
+                    23800,  # Cancrine Apron
+                    3749,  # Chemistry Set
+                    10079,  # ♪Iron Giant
+                ],
             750: [
-                3885,  # Melodious Plans
-                3886,  # Timbre Case Kit
-                3887,  # Musichinery Kit
+                    3885,  # Melodious Plans
+                    3886,  # Timbre Case Kit
+                    3887,  # Musichinery Kit
                 ] + monthly_750_items + [
                     1873,  # Brigand's Chart
                     1874,  # Pirate's Chart
@@ -294,18 +293,18 @@ data = {
                     27631,  # Cait Sith Guard
                 ],
             300: [
-                10061,  # ♪Tulfaire
-                10066,  # ♪Spheroid
-                10070,  # ♪Raaz
-                18464,  # Ark Tachi
-                18545,  # Ark Tabar
-                18563,  # Ark Scythe
-                18912,  # Ark Saber
-                18913,  # Ark Sword
-                3740,  # Model Synergy Furnace
-                23790,  # Adenium Masque
-                23791,  # Adenium Suit
-            ],
+                    10061,  # ♪Tulfaire
+                    10066,  # ♪Spheroid
+                    10070,  # ♪Raaz
+                    18464,  # Ark Tachi
+                    18545,  # Ark Tabar
+                    18563,  # Ark Scythe
+                    18912,  # Ark Saber
+                    18913,  # Ark Sword
+                    3740,  # Model Synergy Furnace
+                    23790,  # Adenium Masque
+                    23791,  # Adenium Suit
+                ],
             500: [
                     22045,  # Feline Hagoita
                 ],
@@ -373,9 +372,9 @@ data = {
                     3885,  # Melodious Plans
                     3886,  # Timbre Case Kit
                     3887,  # Musichinery Kit
-            ] + monthly_750_items + [
+                ] + monthly_750_items + [
                     6381,  # Fisherman's Feast
-            ],
+                ],
             1000:
                 monthly_1000_items + [
                     6486,  # Frayed Sack (Pel)
@@ -492,11 +491,11 @@ data = {
                     3885,  # Melodious Plans
                     3886,  # Timbre Case Kit
                     3887,  # Musichinery Kit
-            ] + monthly_750_items + [
+                ] + monthly_750_items + [
                     5109,  # Frayed Sack (A1)
                     5111,  # Frayed Sack (M1)
                     6264,  # Frayed Sack (H1)
-            ],
+                ],
             1000:
                 monthly_1000_items + [
                     9277,  # Silver Voucher
@@ -620,8 +619,8 @@ data = {
                     3885,  # Melodious Plans
                     3886,  # Timbre Case Kit
                     3887,  # Musichinery Kit
-                ] + monthly_750_items + [
-                ] + rems_tale_6_to_10 + [
+                ] + monthly_750_items +
+                rems_tale_6_to_10 + [
                     1110,  # Black Beetle Blood
                     844,   # Phoenix Feather
                     836,   # Damascene Cloth
@@ -632,7 +631,7 @@ data = {
             1000:
                 monthly_1000_items + [
                     15554,  # Pelican Ring
-            ],
+                ],
             1500:
                 monthly_1500_items,
         },
@@ -699,7 +698,7 @@ data = {
                     3292,  # Azdaja's Horn
                     3290,  # Isgebind's Heart
                     3291,  # Alfrad's Fang
-                    ],
+                ],
             1500:
                 monthly_1500_items,
         },
@@ -758,7 +757,7 @@ data = {
                     10075,  # ♪Red Raptor
                     22153,  # Silver Gun
                     3748,   # Leafkin Bed
-                    ],
+                ],
             500: [
                     10081,  # ♪Noble Chocobo
                     23803,  # Poroggo Cassock
@@ -774,7 +773,7 @@ data = {
                     6486,   # Frayed Sack(Pel)
                     6487,   # Frayed Sack(Fer)
                     6488,   # Frayed Sack(Tau)
-                    ],
+                ],
             1500:
                 monthly_1500_items,
         },
@@ -818,9 +817,58 @@ data = {
                 9080,  # Kitchen Stove
                 9081,  # Kitchen Plate
                 ] + monthly_750_items
-            + rems_tale_6_to_10,
+                + rems_tale_6_to_10,
             1000:
                 monthly_1000_items,
+            1500:
+                monthly_1500_items,
+        },
+    },
+    112: {
+        'year': 2022,
+        'month': 10,
+        'prizes': {
+            10:
+                monthly_10_items,
+            100:
+                monthly_100_items + [
+                    26946,   # Pupil's Shirt
+                    26964,   # Pupil's Camisa
+                    27281,   # Pupil's Trousers
+                    27455,   # Pupil's Shoes
+                    10852,   # Hecteyes Belt
+                    10850,   # Leech Belt
+                    10851,   # Slime Belt
+                ],
+            300: [
+                    3726,  # Aphmau Statue
+                    10050,  # ♪Tiger companion
+                    3651,  # Harvest Pastry
+                    25713,  # Track Shirt
+                    27325,  # Track Pants
+                    25586,  # Kakai Cap
+                    21820,  # Lost Sickle
+                    3739,  # Autumn Tree
+                    54,    # Chocobo Commode
+                    3749,  # Chemistry Set
+            ],
+            500: [
+                    3753,  # Blueblade Fell
+            ],
+            750: [
+                    3885,  # Melodious Plans
+                    3886,  # Timbre Case Kit
+                    3887,  # Musichinery Kit
+                ] + monthly_750_items + [
+                    6576,  # Turkey with rolanberry sauce
+                ],
+            1000:
+                monthly_1000_items + [
+                    3640,  # Rol. Delightaru
+                    3714,  # White Clematis
+                    3715,  # Pink Clematis
+                    3717,  # Birch Tree
+                ],
             1500:
                 monthly_1500_items,
         },
