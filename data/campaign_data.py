@@ -873,6 +873,75 @@ data = {
                 monthly_1500_items,
         },
     },
+    113: {
+        'year': 2022,
+        'month': 11,
+        'prizes': {
+            10:
+                monthly_10_items + [
+                    9890, # Tarazacum Orb
+                ],
+            100:
+                monthly_100_items + [
+                    6413, # Astral Cube
+                    9891, # Zinnia Orb
+                    20713, # Excalipoor
+                    6008, # Copse Candy
+                    10850, # Leech Belt
+                    10851, # Slime Belt
+                ],
+            300: [
+                    10069, # ♪Goobbue
+                    10051, # ♪Crab
+                    10058, # ♪Beetle
+                    10384, # Cumulus Masque
+                    20666, # Blizzard Brand
+                    25658, # Wyrm. Masque +1
+                    25757, # Wyrmking Suit +1
+                    10073, # ♪Dhalmel
+                    10076, # ♪Golden Bomb
+                    10079, # ♪Iron Giant
+            ],
+            500: [
+                    10082, # ♪Ixion
+            ],
+            750: [
+                    9079, # Kitchen Brick
+                    9080, # Kitchen Stove
+                    9081, # Kitchen Plate
+                ] + monthly_750_items + [
+                    1873, # Brigand's Chart
+                    1874, # Pirate's Chart
+                ],
+            1000:
+                monthly_1000_items + [
+                    6486, # Frayed Sack (Pel)
+                    6487, # Frayed Sack (Fer)
+                    6488, # Frayed Sack (Tau)
+                    6542, # Worn Sack (SS+2)
+                    6544, # Worn Sack (LS+2)
+                    6546, # Worn Sack (DS+2)
+                    6548, # Worn Sack (ST+2)
+                    6550, # Worn Sack (LT+2)
+                    6552, # Worn Sack (DT+2)
+                    6554, # Worn Sack (SD+2)
+                    6556, # Worn Sack (LD+2)
+                    6558, # Worn Sack (DD+2)
+                    6560, # Worn Sack (SO+2)
+                    6562, # Worn Sack (LO+2)
+                    6564, # Worn Sack (DO+2)
+                ],
+            1500:
+                monthly_1500_items + [
+                    8720, # Maliya. Coral Orb
+                    8722, # Hepatizon Ingot
+                    8724, # Beryllium Ingot
+                    8726, # Exalted Lumber
+                    8728, # Sif's Macrame
+                    28653, # Mundus Shield
+                ],
+        },
+    },
 }
 
 
