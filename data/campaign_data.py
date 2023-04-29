@@ -942,6 +942,68 @@ data = {
                 ],
         },
     },
+    114: {
+        'year': 2022,
+        'month': 12,
+        'prizes': {
+            10:
+                monthly_10_items + [
+                    26489, # Troth
+                    28661, # Glinting Shield
+                ],
+            100:
+                monthly_100_items + [
+                    10112, # Cipher: Zeid
+                    10113, # Cipher: Lion
+                    10118, # Cipher: Naja
+                    10120, # Cipher: Lehko
+                    10124, # Cipher: Luzaf
+                    10125, # Cipher: Najelith
+                    10129, # Cipher: Domina
+                    10134, # Cipher: S. Sibyl
+                    10142, # Cipher: Karaha
+                    10149, # Cipher: Areuhat
+                    10136, # Cipher: Uka
+                    10141, # Cipher: Kuyin
+                    10144, # Cipher: Abenzio
+                    10145, # Cipher: Rughadjeen
+                    10150, # Cipher: Lhe
+                    10151, # Cipher: Mayakov
+                    10155, # Cipher: Brygid
+                    10156, # Cipher: Mildaurion
+                    10161, # Cipher: Rongelouts
+                    10166, # Cipher: Robel-Akbel
+                    10178, # Cipher: Ullegore
+                    10179, # Cipher: Teodor
+                    10183, # Cipher: Darrcuiln
+                ],
+            300:
+                rotation_a_300_items +
+                rems_tale_1_to_5 + [
+                    9009, # Etched Memory
+                    10187, # Cipher: Shantotto II
+                ],
+            500: [
+                    25911, # Denim Pants
+                    3753, # Blueblade Fell
+                    10082, # ♪Ixion
+            ],
+            750: [
+                    3885, # Melodious Plans
+                    3886, # Timbre Case Kit
+                    3887, # Musichinery Kit
+                ] + monthly_750_items + [
+                    1873, # Brigand's Chart
+                    1874, # Pirate's Chart
+                ] + rems_tale_6_to_10,
+            1000:
+                monthly_1000_items + [
+                    6367, # Codex of Etchings
+                ],
+            1500:
+                monthly_1500_items,
+        },
+    },
 }
 
 
