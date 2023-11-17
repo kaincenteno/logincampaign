@@ -998,22 +998,7 @@ data = {
                 ] + rems_tale_6_to_10,
             1000:
                 monthly_1000_items + [
-                    6367, # Imperator's Wing
-                    8983, # Arthro's Shell
-                    8984, # Orcfeltrap's Leaf
-                    9092, # G. Gel's Mucus
-                    8986, # Joyous's Moss
-                    8981, # Abyssdiver Feather
-                    8982, # Intuila's Hide
-                    9054, # Voso's Hide
-                    8988, # Warblade's Hide
-                    9028, # Heiligtum's Moss
-                    8992, # Malatrix's Shard
-                    9047, # Immani. Hide
-                    9046, # Tiyanak's Fang
-                    8993, # Veloz's Needle
-                    8994, # Mender's Log
-                    9027, # Samantha's Vine
+                    6367, # Codex of Etchings
                 ],
             1500:
                 monthly_1500_items,
@@ -1058,14 +1043,22 @@ data = {
                 ],
             1000:
                 monthly_1000_items + [
-                    9057,  # Ayapec's Shell
-                    9060,  # Ethereal Incense
-                    9103,  # Vidmapire's Claw
-                    9059,  # Azrael's Eye
-                    9104,  # Centurio's Armor
-                    9097,  # Mhuufya's Beak
-                    9051,  # Camahueto's Fur
-                    9031,  # Vedrfolnir's Wing
+                    6367, # Imperator's Wing
+                    8983, # Arthro's Shell
+                    8984, # Orcfeltrap's Leaf
+                    9092, # G. Gel's Mucus
+                    8986, # Joyous's Moss
+                    8981, # Abyssdiver Feather
+                    8982, # Intuila's Hide
+                    9054, # Voso's Hide
+                    8988, # Warblade's Hide
+                    9028, # Heiligtum's Moss
+                    8992, # Malatrix's Shard
+                    9047, # Immani. Hide
+                    9046, # Tiyanak's Fang
+                    8993, # Veloz's Needle
+                    8994, # Mender's Log
+                    9027, # Samantha's Vine
                 ],
             1500:
                 monthly_1500_items,
