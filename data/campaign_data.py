@@ -998,7 +998,74 @@ data = {
                 ] + rems_tale_6_to_10,
             1000:
                 monthly_1000_items + [
-                    6367, # Codex of Etchings
+                    6367, # Imperator's Wing
+                    8983, # Arthro's Shell
+                    8984, # Orcfeltrap's Leaf
+                    9092, # G. Gel's Mucus
+                    8986, # Joyous's Moss
+                    8981, # Abyssdiver Feather
+                    8982, # Intuila's Hide
+                    9054, # Voso's Hide
+                    8988, # Warblade's Hide
+                    9028, # Heiligtum's Moss
+                    8992, # Malatrix's Shard
+                    9047, # Immani. Hide
+                    9046, # Tiyanak's Fang
+                    8993, # Veloz's Needle
+                    8994, # Mender's Log
+                    9027, # Samantha's Vine
+                ],
+            1500:
+                monthly_1500_items,
+        },
+    },
+    115: {
+        'year': 2023,
+        'month': 1,
+        'prizes': {
+            10:
+                monthly_10_items,
+            100:
+                monthly_100_items + [
+                    6413,  # Astral Cube
+                    3705,  # Far East Hearth
+                    25758,  # Rhapsody Shirt
+                    27631,  # Cait Sith Guard
+                ],
+            300: [
+                    10061,  # ♪Tulfaire
+                    10066,  # ♪Spheroid
+                    10070,  # ♪Raaz
+                    18464,  # Ark Tachi
+                    18545,  # Ark Tabar
+                    18563,  # Ark Scythe
+                    18912,  # Ark Saber
+                    18913,  # Ark Sword
+                    3740,  # Model Synergy Furnace
+                    23790,  # Adenium Masque
+                    23791,  # Adenium Suit
+                    22045, # Feline Hagoita
+                ],
+            500: [
+                    23810,  # Knit Cap
+                ],
+            750: [
+                    9079,  # Kitchen Brick
+                    9080,  # Kitchen Stove
+                    9081,  # Kitchen Plate
+                ] + monthly_750_items + [
+                    3713,  # Pot of Wards
+                ],
+            1000:
+                monthly_1000_items + [
+                    9057,  # Ayapec's Shell
+                    9060,  # Ethereal Incense
+                    9103,  # Vidmapire's Claw
+                    9059,  # Azrael's Eye
+                    9104,  # Centurio's Armor
+                    9097,  # Mhuufya's Beak
+                    9051,  # Camahueto's Fur
+                    9031,  # Vedrfolnir's Wing
                 ],
             1500:
                 monthly_1500_items,
